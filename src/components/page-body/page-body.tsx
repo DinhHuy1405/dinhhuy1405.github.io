@@ -51,9 +51,9 @@ const PageBody: React.FC<{
                             {/* <!-- Text Logo --> */}
                             <div className="text-logo">
                                 <a href="/">
-                                    <div className="logo-symbol">M</div>
+                                    <div className="logo-symbol">H</div>
                                     <div className="logo-text">
-                                        Minh <span>Nguyen</span>
+                                        Huy <span>Tim</span>
                                     </div>
                                 </a>
                             </div>
@@ -122,7 +122,7 @@ const PageBody: React.FC<{
                         </div>
 
                         <div className="footer-copyrights">
-                            <p>Nguyen Le Anh Minh - Full-stack Developer</p>
+                            <p>Nguyen Dinh Huy - Full-stack Developer</p>
                         </div>
                     </footer>
                     {/* <!-- /Footer --> */}

@@ -7,8 +7,8 @@ dotenv.config({
 
 const config: GatsbyConfig = {
     siteMetadata: {
-        title: "Nguyễn Lê Anh Minh",
-        description: "Nguyễn Lê Anh Minh portfolio",
+        title: "Nguyễn Đình Huy",
+        description: "Nguyễn Đình Huy portfolio",
     },
     graphqlTypegen: true,
     plugins: [

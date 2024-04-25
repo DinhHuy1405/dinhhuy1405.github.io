@@ -114,7 +114,7 @@ const ResumePage: React.FC<PageProps> = () => {
     return (
         <PageBody>
             <div className="page-title">
-                <h1>Nguyen Le Anh Minh</h1>
+                <h1>Nguyen Dinh Huy</h1>
                 <div className="page-subtitle">
                     <h4>About 2 Years of Experience</h4>
                 </div>

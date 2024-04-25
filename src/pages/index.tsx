@@ -110,7 +110,7 @@ const HomePage: React.FC<PageProps> = () => {
                                     <div className="home-text hp-left">
                                         <div className="owl-carousel text-rotation">
                                             <div className="item">
-                                                <h4>Full-stack Developer</h4>
+                                                <h4>Data Analyst</h4>
                                             </div>
 
                                             <div className="item">
@@ -118,11 +118,11 @@ const HomePage: React.FC<PageProps> = () => {
                                             </div>
 
                                             <div className="item">
-                                                <h4>Blockchain Developer</h4>
+                                                <h4>Data Engineer</h4>
                                             </div>
                                         </div>
 
-                                        <h1>Nguyen Le Anh Minh</h1>
+                                        <h1>Nguyen Dinh Huy</h1>
                                         <p>
                                             Eager to adopt and learn new technologies. Enthusiastic to attend a Master of Computer Science in order to understand and apply
                                             different Computer Science concepts.
