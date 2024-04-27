@@ -22,7 +22,7 @@ const ContactPage: React.FC<PageProps> = () => {
                                     <i className="linecons linecons-phone"></i>
                                 </div>
                                 <div className="ci-text">
-                                    <h4>(+84) 94 667 2181</h4>
+                                    <h6>(+84) 0796796492</h6>
                                     <p>Reach out to me during business hours.</p>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@ const ContactPage: React.FC<PageProps> = () => {
                                     <i className="linecons linecons-location"></i>
                                 </div>
                                 <div className="ci-text">
-                                    <h4>Danang - Vietnam</h4>
+                                    <h6>Danang - Vietnam</h6>
                                     <p>102 Nguyen Minh Chan, Hoa Khanh Nam, Lien Chieu</p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const ContactPage: React.FC<PageProps> = () => {
                                     <i className="linecons linecons-mail"></i>
                                 </div>
                                 <div className="ci-text">
-                                    <h4>nguyendinhhuy14052000@gmail.com</h4>
+                                    <h6>nguyendinhhuy14052000@gmail.com</h6>
                                     <p>Send me an email.</p>
                                 </div>
                             </div>

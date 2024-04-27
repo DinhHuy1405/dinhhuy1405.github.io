@@ -119,99 +119,18 @@ const ResumePage: React.FC<PageProps> = () => {
                     <h4>About 2 Years of Experience</h4>
                 </div>
             </div>
-
             <div id="content" className="page-content site-content single-post" role="main">
                 <div className="row">
                     <div className=" col-xs-12 col-sm-6 ">
                         <div className="block-title">
-                            <h2>Education</h2>
+                            <h2>Experiences - Unofficial</h2>
                         </div>
-
-                        <div id="timeline_1" className="timeline clearfix">
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period">2018 - 2023</h5>
-                                <a href="https://dut.udn.vn" target="_blank" className="item-company">
-                                    Danang University of Science and Technology (DUT)
-                                </a>
-
-                                <h4 className="item-title">Water Resource Engineering</h4>
-                                <p>
-                                    <strong>Major:</strong> Informatic Construction
-                                </p>
-                                <p>Merges computer science with engineering practices, empowering to design, develop, and implement robust software systems.</p>
-                                <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p>
-                            </div>
-
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period">2022 - 2023</h5>
-                                <a href="https://funix.edu.vn" target="_blank" className="item-company">
-                                    FUNiX Online School
-                                </a>
-                                <h4 className="item-title">AI Developer</h4>
-                                <p>
-                                    Understanding of how blockchain systems function. Exploring smart contracts and decentralized applications (DApps), culminating in the
-                                    integration of a DApp into a website. To solidify my knowledge, Constructed a private blockchain and developed related blockchain services.
-                                </p>
-                            </div>
-
-                            {/* <div className="timeline-item clearfix">
-                                <h5 className="item-period">2020 - 2021</h5>
-                                <a href="https://school.coders-x.com" target="_blank" className="item-company">
-                                    CoderX Online School
-                                </a>
-                                <h4 className="item-title">Full-stack Web Developer</h4>
-                                <p>
-                                    Gained foundational knowledge in web development technologies by completing a course that covered JavaScript, HTML, CSS, and Node.js.
-                                    Additionally, explored version control using Git and furthered development skills by learning React and TypeScript.
-                                </p>
-                            </div> */}
-{/* 
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period">2018 - 2019</h5>
-                                <a href="https://howkteam.vn" target="_blank" className="item-company">
-                                    KTeam Free Education
-                                </a>
-                                <h4 className="item-title">C# Developer</h4>
-                                <p>
-                                    Began with a course that introduced me to the C# language, focusing on Object-Oriented Programming (OOP) principles. Leveraged ASP.NET MVC to
-                                    construct a Model-View-Controller website, utilizing Entity Framework to facilitate database interaction.
-                                </p>
-                            </div> */}
-                        </div>
-                    </div>
-
-                    <div className=" col-xs-12 col-sm-6 ">
-                        <div className="block-title">
-                            <h2>Experience</h2>
-                        </div>
-
-                        <div id="timeline_2" className="timeline clearfix">
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period current">2022 - Current</h5>
-                                <a href="https://www.napaglobal.com" target="_blank" className="item-company">
-                                    NAPA Global
-                                </a>
-                                <h4 className="item-title">Full-stack Developer</h4>
-                                <p>
-                                    <strong>Blockchain Developer:</strong> Honed skills in smart contract development and integrating blockchain technology into decentralized
-                                    applications (DApps).
-                                </p>
-                                <p>
-                                    <strong>Full-Stack Web Developer:</strong> Contributed to various outsourcing projects. This experience broadened skill-sets by allowing to work
-                                    with data and participate in the development of a platform for a Hackathon.
-                                </p>
-                                <p>
-                                    <strong>Maintainer: </strong> working on other languages and frameworks such as Ruby, C++ and AWS. Currently, supporting deploy a Wallet project
-                                    as a DevOps Developer.
-                                </p>
-                            </div>
-
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period">2022 - 2023</h5>
+                                <h5 className="item-period">2022 - Current</h5>
                                 <a href="https://passgenix.com" target="_blank" className="item-company">
                                     Passgenix Solutions
                                 </a>
-                                <h4 className="item-title">Co-founder & Technical Leader</h4>
+                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
                                 <p>
                                     <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
                                     solutions. Strive to push boundaries and develop products that make a real impact.
@@ -225,8 +144,71 @@ const ResumePage: React.FC<PageProps> = () => {
                                     technology and its potential and using technology to solve real-world problems.
                                 </p>
                             </div>
-
                             <div className="timeline-item clearfix">
+                                <h5 className="item-period">2023 - Current</h5>
+                                <a href="https://therike.com" target="_blank" className="item-company">
+                                    The Rike
+                                </a>
+                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
+                                <p>
+                                    <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
+                                    solutions. Strive to push boundaries and develop products that make a real impact.
+                                </p>
+                                <p>
+                                    <strong>Follow Trend Technology:</strong> Guide the technical direction to ensure that our products are built with the latest technologies and
+                                    best practices. Maintain the highest quality standards in our technological infrastructure and product development.
+                                </p>
+                                <p>
+                                    Gained experience to leverage a deep understanding of the industry and its challenges. Constantly seeking innovative ways to advance our
+                                    technology and its potential and using technology to solve real-world problems.
+                                </p>
+                            </div>
+                    </div>
+
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <div className="block-title">
+                            <h2>Experiences - Official</h2>
+                        </div>
+                        <div id="timeline_2" className="timeline clearfix">
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">2022 - Current</h5>
+
+                                <a href="https://www.napaglobal.com" target="_blank" className="item-company">
+                                    Data House
+                                </a>
+                                <h4 className="item-title">Full-Stack Data Engineer</h4>
+                                <p>
+                                    <strong>Data Engineer:</strong> Reliable data flows, infrastructure, pipelines, ETL, structured and unstructured data storage. Ability to combine and build applications linked to Data.
+                                </p>
+                                <p>
+                                    <strong>Data Analyst</strong> retrieve relevant data from various sources and prepare it for further analysis. Based on the analysis, a data analyst needs to draw conclusions and complete reports and illustrations.
+                                </p>
+                                <p>
+                                    <strong>Data Scientist</strong> statistical, econometric, and machine learning techniques to extract insights from data, enabling informed decision-making and strategic business development.
+                                </p>
+                            </div>
+{/* 
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period">2022 - Current</h5>
+                                <a href="https://passgenix.com" target="_blank" className="item-company">
+                                    Passgenix Solutions
+                                </a>
+                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
+                                <p>
+                                    <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
+                                    solutions. Strive to push boundaries and develop products that make a real impact.
+                                </p>
+                                <p>
+                                    <strong>Follow Trend Technology:</strong> Guide the technical direction to ensure that our products are built with the latest technologies and
+                                    best practices. Maintain the highest quality standards in our technological infrastructure and product development.
+                                </p>
+                                <p>
+                                    Gained experience to leverage a deep understanding of the industry and its challenges. Constantly seeking innovative ways to advance our
+                                    technology and its potential and using technology to solve real-world problems.
+                                </p>
+                            </div> */}
+
+                            {/* <div className="timeline-item clearfix">
                                 <h5 className="item-period">2020 - 2023</h5>
                                 <a href="https://dut.udn.vn/khoacntt" target="_blank" className="item-company">
                                     Information Technology Faculty - DUT
@@ -241,7 +223,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                     Developed innovative applications addressing farming issues and built a agricultural startup. Acquired several noteworthy certificates and
                                     awards.
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -293,7 +275,7 @@ const ResumePage: React.FC<PageProps> = () => {
 
                 <div className="row">
                     <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/blockchain-basic-certificate.jpg" className="lightbox">
+                        <a href="/img/resume/Screenshot 2024-04-28 at 01.02.08.png" className="lightbox">
                             <div className="certificate-item clearfix">
                                 <div className="certi-logo">
                                     <img src="/img/resume/funix-logo.png" alt="logo" />
@@ -301,14 +283,14 @@ const ResumePage: React.FC<PageProps> = () => {
 
                                 <div className="certi-content">
                                     <div className="certi-title">
-                                        <h4>Blockchain Basic</h4>
+                                        <h4>Machine Learning</h4>
                                     </div>
 
                                     <div className="certi-id">
-                                        <span>Reference: FX220347SC</span>
+                                        <span>Reference: FX222588SC</span>
                                     </div>
                                     <div className="certi-date">
-                                        <span>19 January 2022</span>
+                                        <span>25/05/2022</span>
                                     </div>
                                 </div>
                             </div>
@@ -316,22 +298,22 @@ const ResumePage: React.FC<PageProps> = () => {
                     </div>
 
                     <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/smart-contract-certificate.jpg" className="lightbox">
+                        <a href="/img/resume/Data for Everyone.png" className="lightbox">
                             <div className="certificate-item clearfix">
                                 <div className="certi-logo">
-                                    <img src="/img/resume/funix-logo.png" alt="logo" />
+                                    <img src="/img/resume/logo-200.png" alt="logo" />
                                 </div>
 
                                 <div className="certi-content">
                                     <div className="certi-title">
-                                        <h4>Smart Contract</h4>
+                                        <h4>Data Analyst</h4>
                                     </div>
 
                                     <div className="certi-id">
-                                        <span>Reference: FX220924SC</span>
+                                        <span>Data for Everyone Course</span>
                                     </div>
                                     <div className="certi-date">
-                                        <span>02 March 2022</span>
+                                        <span>02/03/2022</span>
                                     </div>
                                 </div>
                             </div>
@@ -342,7 +324,7 @@ const ResumePage: React.FC<PageProps> = () => {
                         <a href="/img/resume/decentralized-application-development-certificate.jpg" className="lightbox">
                             <div className="certificate-item clearfix">
                                 <div className="certi-logo">
-                                    <img src="/img/resume/funix-logo.png" alt="logo" />
+                                    <img src="/img/resume/Google_2015_logo.svg.png" alt="logo" />
                                 </div>
 
                                 <div className="certi-content">
@@ -365,12 +347,12 @@ const ResumePage: React.FC<PageProps> = () => {
                         <a href="/img/resume/blockchain-platforms-certificate.jpg" className="lightbox">
                             <div className="certificate-item clearfix">
                                 <div className="certi-logo">
-                                    <img src="/img/resume/funix-logo.png" alt="logo" />
+                                    <img src="/img/resume/Salesforce.com_logo.svg.png" alt="logo" />
                                 </div>
 
                                 <div className="certi-content">
                                     <div className="certi-title">
-                                        <h4>Blockchain Platforms</h4>
+                                        <h4>Salesforce Certified Platform Developer 1</h4>
                                     </div>
 
                                     <div className="certi-id">

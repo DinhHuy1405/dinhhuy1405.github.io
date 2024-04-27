@@ -189,29 +189,26 @@ const ResumePage: React.FC<PageProps> = () => {
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period current">2022 - Current</h5>
                                 <a href="https://www.napaglobal.com" target="_blank" className="item-company">
-                                    NAPA Global
+                                    Data House
                                 </a>
-                                <h4 className="item-title">Full-stack Developer</h4>
+                                <h4 className="item-title">Full-Stack Data Engineer</h4>
                                 <p>
-                                    <strong>Blockchain Developer:</strong> Honed skills in smart contract development and integrating blockchain technology into decentralized
-                                    applications (DApps).
+                                    <strong>Data Engineer:</strong> Reliable data flows, infrastructure, pipelines, ETL, structured and unstructured data storage. Ability to combine and build applications linked to Data.
                                 </p>
                                 <p>
-                                    <strong>Full-Stack Web Developer:</strong> Contributed to various outsourcing projects. This experience broadened skill-sets by allowing to work
-                                    with data and participate in the development of a platform for a Hackathon.
+                                    <strong>Data Analyst</strong> retrieve relevant data from various sources and prepare it for further analysis. Based on the analysis, a data analyst needs to draw conclusions and complete reports and illustrations.
                                 </p>
                                 <p>
-                                    <strong>Maintainer: </strong> working on other languages and frameworks such as Ruby, C++ and AWS. Currently, supporting deploy a Wallet project
-                                    as a DevOps Developer.
+                                    <strong>Data Scientist</strong> statistical, econometric, and machine learning techniques to extract insights from data, enabling informed decision-making and strategic business development.
                                 </p>
                             </div>
 
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period">2022 - 2023</h5>
+                                <h5 className="item-period">2022 - Current</h5>
                                 <a href="https://passgenix.com" target="_blank" className="item-company">
                                     Passgenix Solutions
                                 </a>
-                                <h4 className="item-title">Co-founder & Technical Leader</h4>
+                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
                                 <p>
                                     <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
                                     solutions. Strive to push boundaries and develop products that make a real impact.
