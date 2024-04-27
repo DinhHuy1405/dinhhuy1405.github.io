@@ -118,7 +118,7 @@ const HomePage: React.FC<PageProps> = () => {
                                             </div>
 
                                             <div className="item">
-                                                <h4>Data Engineer</h4>
+                                                <h4>Full Stack Data Engineer</h4>
                                             </div>
                                         </div>
 

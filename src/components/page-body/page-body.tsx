@@ -67,11 +67,17 @@ const PageBody: React.FC<{
                                     </li>
 
                                     <li className="menu-item">
+                                        <a href="/educational">Educational (CV)</a>
+                                    </li>
+                                    <li className="menu-item">
                                         <a href="/resume">Resume (CV)</a>
                                     </li>
 
                                     <li className="menu-item">
                                         <a href="/projects">Projects</a>
+                                    </li>
+                                    <li className="menu-item">
+                                        <a href="/blogs">Blogs</a>
                                     </li>
 
                                     <li className="menu-item">
@@ -108,7 +114,7 @@ const PageBody: React.FC<{
                                 </li>
 
                                 <li>
-                                    <a href="https://www.facebook.com/nguyenanhminh02" target="_blank">
+                                    <a href="https://www.facebook.com/profile.php?id=100010185792295" target="_blank">
                                         Facebook
                                     </a>
                                 </li>
@@ -122,7 +128,7 @@ const PageBody: React.FC<{
                         </div>
 
                         <div className="footer-copyrights">
-                            <p>Nguyen Dinh Huy - Full-stack Developer</p>
+                            <p>Nguyen Dinh Huy - Full Stack Data Engineer</p>
                         </div>
                     </footer>
                     {/* <!-- /Footer --> */}
