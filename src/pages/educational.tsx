@@ -142,56 +142,45 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p>
                             </div>
 
-                            {/* <div className="timeline-item clearfix">
-                                <h5 className="item-period">2022 - 2023</h5>
-                                <a href="https://funix.edu.vn" target="_blank" className="item-company">
-                                    FUNiX Online School
-                                </a>
-                                <h4 className="item-title">AI Developer</h4>
-                                <p>
-                                    Understanding of how blockchain systems function. Exploring smart contracts and decentralized applications (DApps), culminating in the
-                                    integration of a DApp into a website. To solidify my knowledge, Constructed a private blockchain and developed related blockchain services.
-                                </p>
-                            </div> */}
-
-                            {/* <div className="timeline-item clearfix">
-                                <h5 className="item-period">2020 - 2021</h5>
-                                <a href="https://school.coders-x.com" target="_blank" className="item-company">
-                                    CoderX Online School
-                                </a>
-                                <h4 className="item-title">Full-stack Web Developer</h4>
-                                <p>
-                                    Gained foundational knowledge in web development technologies by completing a course that covered JavaScript, HTML, CSS, and Node.js.
-                                    Additionally, explored version control using Git and furthered development skills by learning React and TypeScript.
-                                </p>
-                            </div> */}
-{/* 
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period">2018 - 2019</h5>
-                                <a href="https://howkteam.vn" target="_blank" className="item-company">
-                                    KTeam Free Education
-                                </a>
-                                <h4 className="item-title">C# Developer</h4>
-                                <p>
-                                    Began with a course that introduced me to the C# language, focusing on Object-Oriented Programming (OOP) principles. Leveraged ASP.NET MVC to
-                                    construct a Model-View-Controller website, utilizing Entity Framework to facilitate database interaction.
-                                </p>
-                            </div> */}
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title">
+                            <h2>Research Experiences</h2>
+                        </div>
+
+                        <div id="timeline_1" className="timeline clearfix">
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period">2018 - 2023</h5>
+                                <a href="https://dut.udn.vn" target="_blank" className="item-company">
+                                    Danang University of Science and Technology (DUT)
+                                </a>
+
+                                <h4 className="item-title">Water Resource Engineering</h4>
+                                <p>
+                                    <strong>Major:</strong> Informatic Construction
+                                </p>
+                                <p>Merges computer science with engineering practices, empowering to design, develop, and implement robust software systems.</p>
+                                <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <div className="block-title">
                             <h2>Honors and awards</h2>
                             <a 
-                                href="https://drive.google.com/file/d/1COaI0O8MkPd6I3xXFsW4Vv8GVlvBTV4S/view">  | Certificates Links
+                                href="https://drive.google.com/file/d/1COaI0O8MkPd6I3xXFsW4Vv8GVlvBTV4S/view" target="_blank" className="lightbox">  
+                                | Certificates Links
                                 </a>
                             
                         </div>
-                        
-
-                        <div id="timeline_2" className="timeline clearfix">
+                        <div id="timeline_2" className="col-xs-12 col-sm-12 ">
+                            {/* International  */}
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period current">International</h5>
                                 <h4 className="item-title">International programming contest</h4>
@@ -227,31 +216,208 @@ const ResumePage: React.FC<PageProps> = () => {
 
 
                             </div>
+                            {/* National  */}
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period current">National</h5>
-                                <h4 className="item-title">Vietnam AI and Blockchain Programming Contest 2023</h4>
-                                Consolation prize of Vietnam AI and Blockchain Programming Contest 2023
-                                
+                                <h4 className="item-title">International programming contest</h4>
+                                <p>
+                                    First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.
+                                </p>
                                 <a 
-                                href="https://doanthanhnien.vn/tin-tuc/tuoi-tre-sang-tao/tong-ket-trao-giai-cuoc-thi-%E2%80%9Coraichain-hackathon%E2%80%9D-nam-2023">  | doanthanhniens - News
+                                href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">  VOV - News
+                                </a>
+                                <a 
+                                href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">  | Nhandan.com - News
+                                </a>
+                                <a 
+                                href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">  | Doanthanhnien - News
+                                </a>
+                                <a 
+                                href="https://www.udn.vn/bankhcnmt/tin-tuc/sinh-vien-dai-hoc-da-nang-dat-quan-quan-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-voi-ung-dung-ho-tro-nong-dan-trong-trot">  | Daihocdanang - News
                                 </a>
 
-                                <h4 className="item-title">National Scientific Research Award</h4>
-                                <p>
-                                    National Scientific Research Consolation Award 2021 – 2022.
-                                </p>
-                                {/* <a 
-                                href="https://vietnamnet.vn/nen-tang-khoa-hoc-phi-tap-trung-dat-giai-nhat-thi-lap-trinh-oraichain-hackathon-2143108.html">  |VOV - News
-                                </a> */}
+                                <a 
+                                href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">  | Vietnamplus - News
+                                </a>
+
+                                <a 
+                                href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">  | ThanhGiong - News
+                                </a>
+                                <a 
+                                href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">  | TienPhong - News
+                                </a>
+                                <a 
+                                href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">  | See more...
+                                </a>
+
 
                             </div>
+                            {/* City  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Da Nang City</h5>
+                                <h4 className="item-title">International programming contest</h4>
+                                <p>
+                                    First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.
+                                </p>
+                                <a 
+                                href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">  VOV - News
+                                </a>
+                                <a 
+                                href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">  | Nhandan.com - News
+                                </a>
+                                <a 
+                                href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">  | Doanthanhnien - News
+                                </a>
+                                <a 
+                                href="https://www.udn.vn/bankhcnmt/tin-tuc/sinh-vien-dai-hoc-da-nang-dat-quan-quan-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-voi-ung-dung-ho-tro-nong-dan-trong-trot">  | Daihocdanang - News
+                                </a>
+
+                                <a 
+                                href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">  | Vietnamplus - News
+                                </a>
+
+                                <a 
+                                href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">  | ThanhGiong - News
+                                </a>
+                                <a 
+                                href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">  | TienPhong - News
+                                </a>
+                                <a 
+                                href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">  | See more...
+                                </a>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <div className="block-title">
+                            <h2></h2>
+                            {/* <a 
+                                href="https://drive.google.com/file/d/1COaI0O8MkPd6I3xXFsW4Vv8GVlvBTV4S/view" target="_blank" className="lightbox">  
+                                | Certificates Links
+                                </a> */}
+                            
+                        </div>
+                        <div id="timeline_2" className="col-xs-12 col-sm-12 ">
+                            {/* Da Nang University  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Da Nang University</h5>
+                                <h4 className="item-title">International programming contest</h4>
+                                <p>
+                                    First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.
+                                </p>
+                                <a 
+                                href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">  VOV - News
+                                </a>
+                                <a 
+                                href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">  | Nhandan.com - News
+                                </a>
+                                <a 
+                                href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">  | Doanthanhnien - News
+                                </a>
+                                <a 
+                                href="https://www.udn.vn/bankhcnmt/tin-tuc/sinh-vien-dai-hoc-da-nang-dat-quan-quan-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-voi-ung-dung-ho-tro-nong-dan-trong-trot">  | Daihocdanang - News
+                                </a>
+
+                                <a 
+                                href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">  | Vietnamplus - News
+                                </a>
+
+                                <a 
+                                href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">  | ThanhGiong - News
+                                </a>
+                                <a 
+                                href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">  | TienPhong - News
+                                </a>
+                                <a 
+                                href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">  | See more...
+                                </a>
+
+
+                            </div>
+                            {/* DUT  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Da Nang University of Science and Technology</h5>
+                                <h4 className="item-title">International programming contest</h4>
+                                <p>
+                                    First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.
+                                </p>
+                                <a 
+                                href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">  VOV - News
+                                </a>
+                                <a 
+                                href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">  | Nhandan.com - News
+                                </a>
+                                <a 
+                                href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">  | Doanthanhnien - News
+                                </a>
+                                <a 
+                                href="https://www.udn.vn/bankhcnmt/tin-tuc/sinh-vien-dai-hoc-da-nang-dat-quan-quan-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-voi-ung-dung-ho-tro-nong-dan-trong-trot">  | Daihocdanang - News
+                                </a>
+
+                                <a 
+                                href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">  | Vietnamplus - News
+                                </a>
+
+                                <a 
+                                href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">  | ThanhGiong - News
+                                </a>
+                                <a 
+                                href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">  | TienPhong - News
+                                </a>
+                                <a 
+                                href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">  | See more...
+                                </a>
+
+
+                            </div>
+                            {/* Faculty  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Faculty of Water Resource Engineering </h5>
+                                <h4 className="item-title">International programming contest</h4>
+                                <p>
+                                    First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.
+                                </p>
+                                <a 
+                                href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">  VOV - News
+                                </a>
+                                <a 
+                                href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">  | Nhandan.com - News
+                                </a>
+                                <a 
+                                href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">  | Doanthanhnien - News
+                                </a>
+                                <a 
+                                href="https://www.udn.vn/bankhcnmt/tin-tuc/sinh-vien-dai-hoc-da-nang-dat-quan-quan-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-voi-ung-dung-ho-tro-nong-dan-trong-trot">  | Daihocdanang - News
+                                </a>
+
+                                <a 
+                                href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">  | Vietnamplus - News
+                                </a>
+
+                                <a 
+                                href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">  | ThanhGiong - News
+                                </a>
+                                <a 
+                                href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">  | TienPhong - News
+                                </a>
+                                <a 
+                                href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">  | See more...
+                                </a>
+
+
+                            </div>
+
 
 
                         </div>
                     </div>
                 </div>
-
-
+                
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title p-20">
@@ -315,7 +481,7 @@ const ResumePage: React.FC<PageProps> = () => {
                     </div>
                 </div>
 
-                <div className="row">
+                {/* <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title p-20">
                             <h2>Certificates</h2>
@@ -415,7 +581,7 @@ const ResumePage: React.FC<PageProps> = () => {
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">

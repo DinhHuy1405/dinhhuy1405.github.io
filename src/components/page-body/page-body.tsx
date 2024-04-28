@@ -120,8 +120,8 @@ const PageBody: React.FC<{
                                 </li>
 
                                 <li>
-                                    <a href="https://t.me/nabatti99" target="_blank">
-                                        Telegram
+                                    <a href="https://www.linkedin.com/in/dinhhuynguyen" target="_blank">
+                                    Linkedin
                                     </a>
                                 </li>
                             </ul>

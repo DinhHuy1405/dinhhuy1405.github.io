@@ -228,8 +228,6 @@ const ResumePage: React.FC<PageProps> = () => {
                     </div>
                 </div>
 
-
-
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title p-20">
