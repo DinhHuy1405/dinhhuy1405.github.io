@@ -123,12 +123,12 @@ const ResumePage: React.FC<PageProps> = () => {
                 <div className="row">
                     <div className=" col-xs-12 col-sm-6 ">
                         <div className="block-title">
-                            <h2>Experiences - Unofficial</h2>
+                            <h2>Experiences - Unofficial/Freelance</h2>
                         </div>
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2022 - Current</h5>
-                                <a href="https://passgenix.com" target="_blank" className="item-company">
-                                    Passgenix Solutions
+                                <a href="https://passgenix.com">
+                                     | Passgenix Solutions
                                 </a>
                                 <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
                                 <p>
@@ -146,8 +146,8 @@ const ResumePage: React.FC<PageProps> = () => {
                             </div>
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2023 - Current</h5>
-                                <a href="https://therike.com" target="_blank" className="item-company">
-                                    The Rike
+                                <a href="https://therike.com" >
+                                    | The Rike
                                 </a>
                                 <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
                                 <p>
@@ -173,8 +173,8 @@ const ResumePage: React.FC<PageProps> = () => {
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period current">2022 - Current</h5>
 
-                                <a href="https://www.napaglobal.com" target="_blank" className="item-company">
-                                    Data House
+                                <a href="https://www.datahouse.com" >
+                                    | Data House
                                 </a>
                                 <h4 className="item-title">Full-Stack Data Engineer</h4>
                                 <p>
@@ -228,42 +228,7 @@ const ResumePage: React.FC<PageProps> = () => {
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className=" col-xs-12 col-sm-12 ">
-                        <div className="block-title p-20">
-                            <h2>Language & Efficiency</h2>
-                        </div>
-                    </div>
-                </div>
 
-                <div className="row">
-                    <div className=" col-xs-12 col-sm-6 ">
-                        <a href="/img/resume/toeic-certificate.jpg" className="lightbox">
-                            <div className="certificate-item clearfix">
-                                <div className="certi-logo">
-                                    <img src="/img/resume/toeic-logo.png" alt="logo" />
-                                </div>
-
-                                <div className="certi-content">
-                                    <div className="certi-title">
-                                        <h4>TOEIC: 765 Points</h4>
-                                    </div>
-
-                                    <div className="certi-id">
-                                        <span>Valid until 27 February 2026</span>
-                                    </div>
-                                    <div className="certi-date">
-                                        <span>27 February 2024</span>
-                                    </div>
-
-                                    <div className="certi-company">
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
@@ -321,7 +286,7 @@ const ResumePage: React.FC<PageProps> = () => {
                     </div>
 
                     <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/decentralized-application-development-certificate.jpg" className="lightbox">
+                        <a href="/img/resume/Google Data Analytics.png" className="lightbox">
                             <div className="certificate-item clearfix">
                                 <div className="certi-logo">
                                     <img src="/img/resume/Google_2015_logo.svg.png" alt="logo" />
@@ -329,11 +294,11 @@ const ResumePage: React.FC<PageProps> = () => {
 
                                 <div className="certi-content">
                                     <div className="certi-title">
-                                        <h4>Decentralized Application Development</h4>
+                                        <h4>Google Data Analytics</h4>
                                     </div>
 
                                     <div className="certi-id">
-                                        <span>Reference: FX222515SC</span>
+                                        <span>Reference: RDRXKYXGJBU6</span>
                                     </div>
                                     <div className="certi-date">
                                         <span>21 May 2022</span>

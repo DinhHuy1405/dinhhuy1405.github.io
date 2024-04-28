@@ -8,28 +8,29 @@ const HomePage: React.FC<PageProps> = () => {
     const whatICanDoContents = [
         {
             icon: "linecons-display",
-            title: "Full-stack Development",
+            title: "Full-stack Data Engineer",
             description:
-                "Well-versed in both front-end technologies like HTML, CSS, and JavaScript, and back-end languages and frameworks. Implement user-friendly interfaces, build robust functionality, and ensure seamless data handling within web applications.",
+                "I can hold various positions, data engineer, data analyst, data scientist and have also worked on projects for all the above positions. I am skilled at collecting, storing, processing and analyzing large amounts of data, proficient in using a variety of tools and programming languages to transform raw data into actionable insights that drive promote strategic decision making. I am trying to build myself to go further in my career and perfect the above skills.",
         },
-        {
-            icon: "linecons-data",
-            title: "Data Analyzing",
-            description:
-                "With strong data analysis skills. Can clean, explore, and analyze complex datasets, leveraging statistical methods to uncover trends and patterns. Creating clear and compelling data visualizations to communicate findings effectively.",
-        },
-        {
-            icon: "linecons-bulb",
-            title: "AI Engineering",
-            description:
-                "Strong background in AI engineering. Bridge the gap between theoretical AI concepts and real-world applications. Skilled in building, deploying, and optimizing machine learning models, along with designing and managing the infrastructure.",
-        },
+        // {
+        //     icon: "linecons-data",
+        //     title: "Data Analyzing",
+        //     description:
+        //         "With strong data analysis skills. Can clean, explore, and analyze complex datasets, leveraging statistical methods to uncover trends and patterns. Creating clear and compelling data visualizations to communicate findings effectively.",
+        // },
         {
             icon: "linecons-world",
-            title: "Blockchain",
+            title: "Technology Business Development & Team Management",
             description:
-                "Strong understanding of blockchain architecture, cryptography principles, and smart contracts. Allows to develop innovative blockchain-based solutions, integrate them with existing systems, and ensure their security and efficiency.",
+                "At PassgenixSolutions, a technology company, I lead a 10-member team focused on delivering innovative projects and products in areas such as blockchain, AI, mobile, web applications. At the same time, I manage a business (The Rike) specializing in international trading of more than 400 Vietnamese agricultural products. The business operates a complex remote warehousing and logistics network, successfully marketing and distributing these goods on major US platforms including Amazon, eBay, Shopify and TikTok Shop. My role involves overseeing strategy, ensuring seamless integration of technology solutions and effective market penetration, while maintaining strong team leadership and operations management.",
         },
+        // {
+        //     icon: "linecons-bulb",
+        //     title: "AI Engineering",
+        //     description:
+        //         "Strong background in AI engineering. Bridge the gap between theoretical AI concepts and real-world applications. Skilled in building, deploying, and optimizing machine learning models, along with designing and managing the infrastructure.",
+        // },
+
     ];
 
     const latestProjectsContents = [...projects].sort((a, b) => b.endDate.getTime() - a.endDate.getTime()).slice(0, 3);
@@ -56,19 +57,24 @@ const HomePage: React.FC<PageProps> = () => {
             link: "https://www.python.org",
         },
         {
-            name: "C#",
-            logo: "/img/programming-languages/c-sharp-logo.png",
-            link: "https://docs.microsoft.com/en-us/dotnet/csharp",
+            name: "Amazon Web Services",
+            logo: "/img/programming-languages/Amazon_Web_Services_Logo.svg.png",
+            link: "https://aws.amazon.com",
         },
         {
-            name: "ReactJS",
-            logo: "/img/programming-languages/reactjs-logo.png",
-            link: "https://reactjs.org",
+            name: "SalesForce",
+            logo: "/img/programming-languages/Salesforce.com_logo.svg.png",
+            link: "https://www.salesforce.com/",
         },
         {
-            name: "NextJS",
-            logo: "/img/programming-languages/nextjs-logo.png",
-            link: "https://reactjs.org",
+            name: "Amazon Quicksight",
+            logo: "/img/programming-languages/aws-quicksight-icon-2048x2048-6pz6utv5.png",
+            link: "https://aws.amazon.com/pm/quicksight",
+        },
+        {
+            name: "Appsheet",
+            logo: "/img/programming-languages/Appsheet.png",
+            link: "https://cloud.google.com/appsheet",
         },
         {
             name: "Tensorflow",
@@ -110,22 +116,21 @@ const HomePage: React.FC<PageProps> = () => {
                                     <div className="home-text hp-left">
                                         <div className="owl-carousel text-rotation">
                                             <div className="item">
-                                                <h4>Data Analyst</h4>
+                                                <h4>Technology Business Development & Team Management</h4>
                                             </div>
-
+{/* 
                                             <div className="item">
                                                 <h4>AI Engineer</h4>
-                                            </div>
+                                            </div> */}
 
                                             <div className="item">
-                                                <h4>Full Stack Data Engineer</h4>
+                                                <h4>Full-Stack Data Engineer</h4>
                                             </div>
                                         </div>
 
                                         <h1>Nguyen Dinh Huy</h1>
                                         <p>
-                                            Eager to adopt and learn new technologies. Enthusiastic to attend a Master of Computer Science in order to understand and apply
-                                            different Computer Science concepts.
+                                            You can call me Tim.
                                         </p>
 
                                         <div className="home-buttons">

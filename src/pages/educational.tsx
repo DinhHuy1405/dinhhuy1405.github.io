@@ -116,13 +116,13 @@ const ResumePage: React.FC<PageProps> = () => {
             <div className="page-title">
                 <h1>Nguyen Dinh Huy</h1>
                 <div className="page-subtitle">
-                    <h4>About 2 Years of Experience</h4>
+                    {/* <h4>About 2 Years of Experience</h4> */}
                 </div>
             </div>
 
             <div id="content" className="page-content site-content single-post" role="main">
                 <div className="row">
-                    <div className=" col-xs-12 col-sm-6 ">
+                    <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title">
                             <h2>Education</h2>
                         </div>
@@ -142,7 +142,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p>
                             </div>
 
-                            <div className="timeline-item clearfix">
+                            {/* <div className="timeline-item clearfix">
                                 <h5 className="item-period">2022 - 2023</h5>
                                 <a href="https://funix.edu.vn" target="_blank" className="item-company">
                                     FUNiX Online School
@@ -152,7 +152,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                     Understanding of how blockchain systems function. Exploring smart contracts and decentralized applications (DApps), culminating in the
                                     integration of a DApp into a website. To solidify my knowledge, Constructed a private blockchain and developed related blockchain services.
                                 </p>
-                            </div>
+                            </div> */}
 
                             {/* <div className="timeline-item clearfix">
                                 <h5 className="item-period">2020 - 2021</h5>
@@ -179,69 +179,78 @@ const ResumePage: React.FC<PageProps> = () => {
                             </div> */}
                         </div>
                     </div>
-
-                    <div className=" col-xs-12 col-sm-6 ">
+                </div>
+                <div className="row">
+                    <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title">
-                            <h2>Experience</h2>
+                            <h2>Honors and awards</h2>
+                            <a 
+                                href="https://drive.google.com/file/d/1COaI0O8MkPd6I3xXFsW4Vv8GVlvBTV4S/view">  | Certificates Links
+                                </a>
+                            
                         </div>
+                        
 
                         <div id="timeline_2" className="timeline clearfix">
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period current">2022 - Current</h5>
-                                <a href="https://www.napaglobal.com" target="_blank" className="item-company">
-                                    Data House
+                                <h5 className="item-period current">International</h5>
+                                <h4 className="item-title">International programming contest</h4>
+                                <p>
+                                    First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.
+                                </p>
+                                <a 
+                                href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">  VOV - News
                                 </a>
-                                <h4 className="item-title">Full-Stack Data Engineer</h4>
+                                <a 
+                                href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">  | Nhandan.com - News
+                                </a>
+                                <a 
+                                href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">  | Doanthanhnien - News
+                                </a>
+                                <a 
+                                href="https://www.udn.vn/bankhcnmt/tin-tuc/sinh-vien-dai-hoc-da-nang-dat-quan-quan-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-voi-ung-dung-ho-tro-nong-dan-trong-trot">  | Daihocdanang - News
+                                </a>
+
+                                <a 
+                                href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">  | Vietnamplus - News
+                                </a>
+
+                                <a 
+                                href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">  | ThanhGiong - News
+                                </a>
+                                <a 
+                                href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">  | TienPhong - News
+                                </a>
+                                <a 
+                                href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">  | See more...
+                                </a>
+
+
+                            </div>
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">National</h5>
+                                <h4 className="item-title">Vietnam AI and Blockchain Programming Contest 2023</h4>
+                                Consolation prize of Vietnam AI and Blockchain Programming Contest 2023
+                                
+                                <a 
+                                href="https://doanthanhnien.vn/tin-tuc/tuoi-tre-sang-tao/tong-ket-trao-giai-cuoc-thi-%E2%80%9Coraichain-hackathon%E2%80%9D-nam-2023">  | doanthanhniens - News
+                                </a>
+
+                                <h4 className="item-title">National Scientific Research Award</h4>
                                 <p>
-                                    <strong>Data Engineer:</strong> Reliable data flows, infrastructure, pipelines, ETL, structured and unstructured data storage. Ability to combine and build applications linked to Data.
+                                    National Scientific Research Consolation Award 2021 – 2022.
                                 </p>
-                                <p>
-                                    <strong>Data Analyst</strong> retrieve relevant data from various sources and prepare it for further analysis. Based on the analysis, a data analyst needs to draw conclusions and complete reports and illustrations.
-                                </p>
-                                <p>
-                                    <strong>Data Scientist</strong> statistical, econometric, and machine learning techniques to extract insights from data, enabling informed decision-making and strategic business development.
-                                </p>
+                                {/* <a 
+                                href="https://vietnamnet.vn/nen-tang-khoa-hoc-phi-tap-trung-dat-giai-nhat-thi-lap-trinh-oraichain-hackathon-2143108.html">  |VOV - News
+                                </a> */}
+
                             </div>
 
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period">2022 - Current</h5>
-                                <a href="https://passgenix.com" target="_blank" className="item-company">
-                                    Passgenix Solutions
-                                </a>
-                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
-                                <p>
-                                    <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
-                                    solutions. Strive to push boundaries and develop products that make a real impact.
-                                </p>
-                                <p>
-                                    <strong>Follow Trend Technology:</strong> Guide the technical direction to ensure that our products are built with the latest technologies and
-                                    best practices. Maintain the highest quality standards in our technological infrastructure and product development.
-                                </p>
-                                <p>
-                                    Gained experience to leverage a deep understanding of the industry and its challenges. Constantly seeking innovative ways to advance our
-                                    technology and its potential and using technology to solve real-world problems.
-                                </p>
-                            </div>
 
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period">2020 - 2023</h5>
-                                <a href="https://dut.udn.vn/khoacntt" target="_blank" className="item-company">
-                                    Information Technology Faculty - DUT
-                                </a>
-                                <h4 className="item-title">Researcher</h4>
-                                <p>Motivated to explore the intersection of computer vision (CV) with AI in agriculture, GIS and remote sensing.</p>
-                                <p>
-                                    Driven by the potential to leverage CV techniques to analyze vast datasets from satellites and drones, ultimately contributing to more
-                                    sustainable and productive farming practices.
-                                </p>
-                                <p>
-                                    Developed innovative applications addressing farming issues and built a agricultural startup. Acquired several noteworthy certificates and
-                                    awards.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
+
 
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
@@ -253,15 +262,41 @@ const ResumePage: React.FC<PageProps> = () => {
 
                 <div className="row">
                     <div className=" col-xs-12 col-sm-6 ">
-                        <a href="/img/resume/toeic-certificate.jpg" className="lightbox">
+                        <a href="/img/resume/" className="lightbox">
                             <div className="certificate-item clearfix">
                                 <div className="certi-logo">
-                                    <img src="/img/resume/toeic-logo.png" alt="logo" />
+                                    <img src="/img/resume/ielts-logo-du-hoc-glolink-3.png" alt="logo" />
                                 </div>
 
                                 <div className="certi-content">
                                     <div className="certi-title">
-                                        <h4>TOEIC: 765 Points</h4>
+                                        <h3>IELTS </h3>
+                                    </div>
+
+                                    <div className="certi-id">
+                                        <span>Valid until 27 February 2026</span>
+                                    </div>
+                                    <div className="certi-date">
+                                        <span>27 February 2024</span>
+                                    </div>
+
+                                    <div className="certi-company">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <a href="/img/resume/" className="lightbox">
+                            <div className="certificate-item clearfix">
+                                <div className="certi-logo">
+                                    <img src="/img/resume/GRE_logo.svg.png" alt="logo" />
+                                </div>
+
+                                <div className="certi-content">
+                                    <div className="certi-title">
+                                        <h3>GRE</h3>
                                     </div>
 
                                     <div className="certi-id">
