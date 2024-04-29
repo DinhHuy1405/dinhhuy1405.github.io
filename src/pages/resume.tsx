@@ -27,42 +27,39 @@ const ResumePage: React.FC<PageProps> = () => {
     }[] = [
         {
             name: "HTML / CSS",
-            level: "advanced",
+            level: "intermediate",
         },
         {
             name: "JavaScript",
-            level: "advanced",
+            level: "intermediate",
+        },
+
+        {
+            name: "SQL",
+            level: "intermediate",
         },
         {
-            name: "ReactJS / NextJS / GastbyJS",
-            level: "advanced",
-        },
-        {
-            name: "Smart Contract / D-App",
-            level: "advanced",
-        },
-        {
-            name: "Python",
-            level: "advanced",
+            name: "Quicksight",
+            level: "intermediate",
         },
         {
             name: "Tensorflow",
             level: "intermediate",
         },
         {
-            name: "System Architecture",
+            name: "Salesforce",
             level: "intermediate",
+        },
+        {
+            name: "System Architecture",
+            level: "beginner",
         },
         {
             name: "Database Design",
-            level: "intermediate",
+            level: "beginner",
         },
         {
-            name: "Data Analysis",
-            level: "intermediate",
-        },
-        {
-            name: "C#",
+            name: "AWS",
             level: "beginner",
         },
     ];
@@ -84,25 +81,35 @@ const ResumePage: React.FC<PageProps> = () => {
         level: keyof typeof otherSkillInfos;
         tooltip: string;
     }[] = [
-        {
-            name: "UI/UX Design",
-            level: "advanced",
-            tooltip: "Can design a website, mobile app, etc.",
-        },
-        {
-            name: "Graphic Design",
-            level: "intermediate",
-            tooltip: "Can design a logo, poster, banner, etc.",
-        },
-        {
+                {
             name: "Problem Solving",
             level: "advanced",
             tooltip: "Give idea & solve problems quickly",
         },
         {
             name: "Teamwork",
+            level: "advanced",
+            tooltip: "Work well with over 20 people in a team or multiple teams.",
+        },
+        {
+            name: "Time Management",
+            level: "advanced",
+            tooltip: "Understanding about planning, alocate time effectively, time estimation, time techniques",
+        },
+        {
+            name: "Team Management",
             level: "intermediate",
-            tooltip: "Work well with 3-5 people in a team",
+            tooltip: "Able to handle and coordinate personnel, divide tasks and predict the abilities of each member.",
+        },
+        {
+            name: "Business Development",
+            level: "intermediate",
+            tooltip: "Build and launch long-term strategies such as developing relationships within the direction of the business.",
+        },
+        {
+            name: "Graphic Design",
+            level: "intermediate",
+            tooltip: "Can design a logo, poster, banner, etc.",
         },
         {
             name: "Communication",
@@ -115,8 +122,9 @@ const ResumePage: React.FC<PageProps> = () => {
         <PageBody>
             <div className="page-title">
                 <h1>Nguyen Dinh Huy</h1>
+                <div className="page-subtitle"></div><a> </a>
                 <div className="page-subtitle">
-                    <h4>About 2 Years of Experience</h4>
+                    <a>This is a page documenting my current and future career journey. Over the past 2 years, I have participated in many roles and held many positions in businesses and projects. Hope it can help you understand me better.</a>
                 </div>
             </div>
             <div id="content" className="page-content site-content single-post" role="main">
@@ -128,39 +136,22 @@ const ResumePage: React.FC<PageProps> = () => {
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2022 - Current</h5>
                                 <a href="https://passgenix.com">
-                                     | Passgenix Solutions
+                                     {" "}Passgenix Solutions
                                 </a>
                                 <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
-                                <p>
-                                    <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
-                                    solutions. Strive to push boundaries and develop products that make a real impact.
+                                <p class="item-description">
+                                   My friends and I have done many projects together since we were students. We have deployed and participated in many different technology projects to help businesses and customers deploy innovative products. products and projects on AI, Blockchain, Web and App. Realizing that our capacity and skills are sufficient to deploy technology products in the most professional way, we established Passgenix. Even though it is a company, this is still a technology team that needs to learn and develop. We call ourselves a team instead of a company.
                                 </p>
-                                <p>
-                                    <strong>Follow Trend Technology:</strong> Guide the technical direction to ensure that our products are built with the latest technologies and
-                                    best practices. Maintain the highest quality standards in our technological infrastructure and product development.
-                                </p>
-                                <p>
-                                    Gained experience to leverage a deep understanding of the industry and its challenges. Constantly seeking innovative ways to advance our
-                                    technology and its potential and using technology to solve real-world problems.
-                                </p>
+
                             </div>
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2023 - Current</h5>
                                 <a href="https://therike.com" >
-                                    | The Rike
+                                    {" "}The Rike
                                 </a>
                                 <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
-                                <p>
-                                    <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
-                                    solutions. Strive to push boundaries and develop products that make a real impact.
-                                </p>
-                                <p>
-                                    <strong>Follow Trend Technology:</strong> Guide the technical direction to ensure that our products are built with the latest technologies and
-                                    best practices. Maintain the highest quality standards in our technological infrastructure and product development.
-                                </p>
-                                <p>
-                                    Gained experience to leverage a deep understanding of the industry and its challenges. Constantly seeking innovative ways to advance our
-                                    technology and its potential and using technology to solve real-world problems.
+                                <p class="item-description">
+                                    The Rike is a company founded in 2014 in the US and trades agricultural products such as tea, leaves and seeds from Vietnam and Southeast Asian countries to the US market. I joined The Rike in early 2023 with the task of performing technology-related tasks. But realizing many problems, I participated in human resource management, bringing technology into all fields and positions related to Sales, Purchasing, Marketing, Finance, Warehousing, Logistics,... . From here, I was assigned the task of managing and operating the business. I am still on a journey to improve my ability to adapt to the ever-evolving market.
                                 </p>
                             </div>
                     </div>
@@ -174,56 +165,21 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <h5 className="item-period current">2022 - Current</h5>
 
                                 <a href="https://www.datahouse.com" >
-                                    | Data House
+                                    {" "}Data House
                                 </a>
-                                <h4 className="item-title">Full-Stack Data Engineer</h4>
-                                <p>
+                                <h4 className="item-title">Data Engineer</h4>
+                                <p class="item-description">
+                                    After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
+                                <p class="item-description">
                                     <strong>Data Engineer:</strong> Reliable data flows, infrastructure, pipelines, ETL, structured and unstructured data storage. Ability to combine and build applications linked to Data.
                                 </p>
-                                <p>
+                                <p class="item-description">
                                     <strong>Data Analytics</strong> retrieve relevant data from various sources and prepare it for further analysis. Based on the analysis, a data analyst needs to draw conclusions and complete reports and illustrations.
                                 </p>
-                                <p>
+                                <p class="item-description">
                                     <strong>Data Scientist</strong> statistical, econometric, and machine learning techniques to extract insights from data, enabling informed decision-making and strategic business development.
                                 </p>
                             </div>
-{/* 
-                            <div className="timeline-item clearfix">
-                                <h5 className="item-period">2022 - Current</h5>
-                                <a href="https://passgenix.com" target="_blank" className="item-company">
-                                    Passgenix Solutions
-                                </a>
-                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
-                                <p>
-                                    <strong>Strong Developer Team:</strong> Work closely with our developers and designers to translate creative vision into robust technical
-                                    solutions. Strive to push boundaries and develop products that make a real impact.
-                                </p>
-                                <p>
-                                    <strong>Follow Trend Technology:</strong> Guide the technical direction to ensure that our products are built with the latest technologies and
-                                    best practices. Maintain the highest quality standards in our technological infrastructure and product development.
-                                </p>
-                                <p>
-                                    Gained experience to leverage a deep understanding of the industry and its challenges. Constantly seeking innovative ways to advance our
-                                    technology and its potential and using technology to solve real-world problems.
-                                </p>
-                            </div> */}
-
-                            {/* <div className="timeline-item clearfix">
-                                <h5 className="item-period">2020 - 2023</h5>
-                                <a href="https://dut.udn.vn/khoacntt" target="_blank" className="item-company">
-                                    Information Technology Faculty - DUT
-                                </a>
-                                <h4 className="item-title">Researcher</h4>
-                                <p>Motivated to explore the intersection of computer vision (CV) with AI in agriculture, GIS and remote sensing.</p>
-                                <p>
-                                    Driven by the potential to leverage CV techniques to analyze vast datasets from satellites and drones, ultimately contributing to more
-                                    sustainable and productive farming practices.
-                                </p>
-                                <p>
-                                    Developed innovative applications addressing farming issues and built a agricultural startup. Acquired several noteworthy certificates and
-                                    awards.
-                                </p>
-                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -307,7 +263,7 @@ const ResumePage: React.FC<PageProps> = () => {
                     </div>
 
                     <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/blockchain-platforms-certificate.jpg" className="lightbox">
+                        <a href="/img/resume/1681531083468.jpeg" className="lightbox">
                             <div className="certificate-item clearfix">
                                 <div className="certi-logo">
                                     <img src="/img/resume/Salesforce.com_logo.svg.png" alt="logo" />
@@ -319,10 +275,10 @@ const ResumePage: React.FC<PageProps> = () => {
                                     </div>
 
                                     <div className="certi-id">
-                                        <span>Reference: FX223000SC</span>
+                                        <span>Reference: 3216941</span>
                                     </div>
                                     <div className="certi-date">
-                                        <span>16 June 2022</span>
+                                        <span>April 2023</span>
                                     </div>
                                 </div>
                             </div>

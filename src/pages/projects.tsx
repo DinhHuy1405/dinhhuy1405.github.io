@@ -39,8 +39,13 @@ const ProjectPage: React.FC<PageProps> = () => {
                                 </li>
 
                                 <li>
-                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.NAPA_GLOBAL}>
-                                        NAPA Global
+                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.DATAHOUSE}>
+                                        DataHouse
+                                    </a>
+                                </li>
+                                <li>
+                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.THERIKE}>
+                                        The Rike
                                     </a>
                                 </li>
                                 <li>

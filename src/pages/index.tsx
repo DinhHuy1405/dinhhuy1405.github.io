@@ -219,7 +219,7 @@ const HomePage: React.FC<PageProps> = () => {
                 {/* <!-- /Languages & Frameworks --> */}
 
                 {/* <!-- Latest Projects --> */}
-                <div className="row">
+                {/* <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title p-20">
                             <h2>Latest Projects</h2>
@@ -262,8 +262,9 @@ const HomePage: React.FC<PageProps> = () => {
                             </a>
                         </div>
                     ))}
-                </div>
+                </div> */}
                 {/* <!-- /Latest Projects --> */}
+                
             </div>
         </PageBody>
     );

@@ -422,7 +422,7 @@ const ResumePage: React.FC<PageProps> = () => {
                             {/* International  */}
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period current">Da Nang University of Science and Technology</h5>
-                                <h4 className="item-title">Assoc. Prof. Vo Ngoc Duong</h4>
+                                <h4 className="item-title">Assoc. PhD. Vo Ngoc Duong</h4>
                                 <p>Faculty of Water Resource Engineering</p>
                                 <a href="http://scv.udn.vn/vnduong" target="_blank" >
                                     {" "}scv.udn.vn

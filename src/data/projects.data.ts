@@ -3,8 +3,9 @@ import { randomImgUrl } from "../utilities/text.util";
 export enum ProjectFilterCategory {
     ALL = "project_all",
     PERSONAL = "project_personal",
+    THERIKE = "project_therike",
     PASSGENIX_SOLUTIONS = "project_passgenix_solutions",
-    NAPA_GLOBAL = "project_napa_global",
+    DATAHOUSE = "project_DATAHOUSE",
     WEB_DEVELOPMENT = "project_web_development",
     MOBILE_DEVELOPMENT = "project_mobile_development",
     AI_AND_ML = "project_ai_and_ml",
@@ -94,7 +95,7 @@ export const projects: Project[] = [
     },
     {
         name: "Napa Global: SoulBound NFT",
-        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.NAPA_GLOBAL, ProjectFilterCategory.WEB_DEVELOPMENT, ProjectFilterCategory.BLOCKCHAIN],
+        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.DATAHOUSE, ProjectFilterCategory.WEB_DEVELOPMENT, ProjectFilterCategory.BLOCKCHAIN],
         description: "NFT Web-app rewarding for contributor who devoted to a project.",
         position: "Blockchain Developer, Web Developer, BE Developer, Maintainer",
         thumbnail: "/img/projects/napa-soulbound-nft/thumbnail.jpg",
@@ -108,7 +109,7 @@ export const projects: Project[] = [
     },
     {
         name: "Napa Global: Face Recognition",
-        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.NAPA_GLOBAL, ProjectFilterCategory.AI_AND_ML],
+        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.DATAHOUSE, ProjectFilterCategory.AI_AND_ML],
         description: "The internal face recognition system for Napa Global company.",
         clientLogo: "/img/clients/napa-global.png",
         thumbnail: "/img/projects/napa-face-recognition/thumbnail.jpg",
@@ -121,7 +122,7 @@ export const projects: Project[] = [
     },
     {
         name: "Napa Global: Gamify",
-        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.NAPA_GLOBAL, ProjectFilterCategory.WEB_DEVELOPMENT, ProjectFilterCategory.BLOCKCHAIN],
+        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.DATAHOUSE, ProjectFilterCategory.WEB_DEVELOPMENT, ProjectFilterCategory.BLOCKCHAIN],
         description: "A blockchain platform for gamer.",
         thumbnail: "/img/projects/napa-gamify/thumbnail.jpg",
         clientLogo: "/img/clients/napa-global.png",
@@ -150,7 +151,7 @@ export const projects: Project[] = [
         name: "Napa Global: Datasource",
         filterCategories: [
             ProjectFilterCategory.ALL,
-            ProjectFilterCategory.NAPA_GLOBAL,
+            ProjectFilterCategory.DATAHOUSE,
             ProjectFilterCategory.WEB_DEVELOPMENT,
             ProjectFilterCategory.BLOCKCHAIN,
             ProjectFilterCategory.DATA_ANALYZING,
@@ -168,7 +169,7 @@ export const projects: Project[] = [
     },
     {
         name: "Napa Global: MPC-CMP Wallet",
-        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.NAPA_GLOBAL, ProjectFilterCategory.BLOCKCHAIN],
+        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.DATAHOUSE, ProjectFilterCategory.BLOCKCHAIN],
         description: "Create a blockchain-base security wallet using MPC-CMP algorithm.",
         thumbnail: "/img/projects/napa-mpc-cmp-wallet/thumbnail.jpg",
         clientLogo: "/img/clients/napa-global.png",
