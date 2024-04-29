@@ -26,45 +26,31 @@ const ResumePage: React.FC<PageProps> = () => {
         level: keyof typeof codingSkillInfos;
     }[] = [
         {
-            name: "HTML / CSS",
-            level: "advanced",
+            name: "Machine Learning/AI",
+            level: "intermediate",
         },
         {
-            name: "JavaScript",
-            level: "advanced",
-        },
-        {
-            name: "ReactJS / NextJS / GastbyJS",
-            level: "advanced",
-        },
-        {
-            name: "Smart Contract / D-App",
-            level: "advanced",
-        },
-        {
-            name: "Python",
-            level: "advanced",
+            name: "Deep Learning",
+            level: "intermediate",
         },
         {
             name: "Tensorflow",
             level: "intermediate",
         },
         {
-            name: "System Architecture",
+            name: "GIS",
             level: "intermediate",
         },
         {
-            name: "Database Design",
+            name: "Knowledge About Water Resources",
             level: "intermediate",
         },
         {
-            name: "Data Analysis",
-            level: "intermediate",
-        },
-        {
-            name: "C#",
+            name: "Knowledge About Construction",
             level: "beginner",
         },
+
+        
     ];
 
     const otherSkillInfos = {
@@ -85,14 +71,9 @@ const ResumePage: React.FC<PageProps> = () => {
         tooltip: string;
     }[] = [
         {
-            name: "UI/UX Design",
+            name: "Teamwork",
             level: "advanced",
-            tooltip: "Can design a website, mobile app, etc.",
-        },
-        {
-            name: "Graphic Design",
-            level: "intermediate",
-            tooltip: "Can design a logo, poster, banner, etc.",
+            tooltip: "Work well with over 20 people in a team or multiple teams",
         },
         {
             name: "Problem Solving",
@@ -100,9 +81,14 @@ const ResumePage: React.FC<PageProps> = () => {
             tooltip: "Give idea & solve problems quickly",
         },
         {
-            name: "Teamwork",
+            name: "Time Management",
+            level: "advanced",
+            tooltip: "Understanding about planning, alocate time effectively, time estimation, time techniques",
+        },
+        {
+            name: "Graphic Design",
             level: "intermediate",
-            tooltip: "Work well with 3-5 people in a team",
+            tooltip: "Can design a logo, poster, banner, etc.",
         },
         {
             name: "Communication",
@@ -115,10 +101,17 @@ const ResumePage: React.FC<PageProps> = () => {
         <PageBody>
             <div className="page-title">
                 <h1>Nguyen Dinh Huy</h1>
-                <div className="page-subtitle">{/* <h4>About 2 Years of Experience</h4> */}</div>
+                <div className="page-subtitle"></div><a> </a>
+                <div className="page-subtitle"><a>This page highlights my journey through university, where I juggled academics, extracurricular activities, and part-time jobs. It showcases how I balanced these commitments with enthusiasm and dedication, shaping who I am today.</a>
+                <div className="page-subtitle"></div><a> </a>
+                <a>I hope this gives you a clear picture of my determination and capabilities.</a>
+
+
+            </div>
             </div>
 
             <div id="content" className="page-content site-content single-post" role="main">
+                {/* Education */}
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title">
@@ -142,6 +135,7 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                 </div>
+                {/* Research Experiences */}
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title">
@@ -207,6 +201,7 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                 </div>
+                {/* Honors and awards */}
                 <div className="row">
                     <div className=" col-xs-12 col-sm-6 ">
                         <div className="block-title">
@@ -327,7 +322,133 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                 </div>
+                {/* Activities*/}
+                <div className="row">
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <div className="block-title">
+                            <h2>Activities</h2>
+                            <a href="https://drive.google.com/file/d/1COaI0O8MkPd6I3xXFsW4Vv8GVlvBTV4S/view" target="_blank" >
+                            {" "}Certificate Links
+                            </a>
+                        </div>
+                        <div id="timeline_2" className="col-xs-12 col-sm-12 ">
+                            {/* International  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">International</h5>
+                                <h4 className="item-title">International Training Course (2020)</h4>
+                                <p>The IHP training Course in Asia and Pacific Region 2020, Kyoto University.</p>
+                                <a href="http://ecohyd.dpri.kyoto-u.ac.jp/en/index/ihptc2020.html">
+                                    {" "}kyoto-u.jp{" "}
+                                </a>
+                                <h4 className="item-title">International Program (2020)</h4>
+                                <p>SATU Mobility Action For Regional Talents 2020, National Cheng Kung University. (Leader)</p>
+                                <a href="https://satu.ncku.edu.tw/p/16-1036-191661.php?Lang=en">
+                                    {" "}ncku{" "}
+                                </a>
+                            
+                            </div>
+                            {/* National  */}
+                            {/* <div className="timeline-item clearfix">
+                                <h5 className="item-period current">National</h5>
+                                <h4 className="item-title">Vietnam AI and Blockchain Programming Contest (2023)</h4>
+                                <p>Consolation prize of Vietnam AI and Blockchain Programming Contest 2023 - Oraichain Hackathon.</p>
+                                <a href="https://doanthanhnien.vn/tin-tuc/tuoi-tre-sang-tao/tong-ket-trao-giai-cuoc-thi-%E2%80%9Coraichain-hackathon%E2%80%9D-nam-2023">
+                                    {" "}Doanthanhnien{" "}
+                                </a>
+                                |
+                                <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0nwdwCe9ggq6yBdiBQrpDC6AyMh4NMqGeEqVTidqc753raFjnQh6jTXrk8AJL1Nkzl%26id%3D100010185792295&show_text=true&width=500&is_preview=true%22%20width%3D%22500%22%20height%3D%220%22%20style%3D%22border%3Anone%3Boverflow%3Ahidden%22%20scrolling%3D%22no%22%20frameborder%3D%220%22%20allowfullscreen%3D%22true%22%20allow%3D%22autoplay%3B%20clipboard-write%3B%20encrypted-media%3B%20picture-in-picture%3B%20web-share">
+                                    {" "}Facebookshare - News{" "}
+                                </a>
+                                <h4 className="item-title">National Scientific Research (2022)</h4>
+                                <p>Consolation of National Scientific Research Award 2021 – 2022.</p>
+                            </div> */}
+                            {/* City  */}
+                            {/* <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Da Nang City</h5>
+                                <h4 className="item-title">Da Nang Startup Runway competition (2021)</h4>
+                                <p>First prize of the Da Nang Startup Runway competition 2021.</p>
+                                <a href="http://due.udn.vn/en-us/news/newsdetail/id/14143">
+                                    {" "}
+                                    due.udn.vn
+                                </a>
+                                | 
+                                <a href="https://tuoitredhdn.udn.vn/doan-dai-hoc-da-nang/co-so-doan-thanh-vien/truong-dai-hoc-kinh-te-dhdn-to-chuc-thanh-cong-chung-ket-startup-runway-2021-nhieu-y-tuong-khoi-nghiep-duoc-ho-tro-de-ung-dung-thuc-tien-1672.html">
+                                    {" "}tuoitredhdn{" "}
+                                </a>
+                                <h4 className="item-title">Da Nang Science Research Student (2021)</h4>
+                                <p>Consolation Prize of Da Nang Science Research Student 2021.</p>
+                                <a href="hhttps://en.dut.udn.vn/results-of-the-selection-of-topics-for-the-final-round-of-the-student-scientific-research-contest-in-danang-city-in-2021-70.html">
+                                    {" "}dut.udn{" "}
+                                </a>
+                            </div> */}
 
+                        </div>
+                    </div>
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <div className="block-title" style={{opacity: 0}}>
+                            <h2>xxxx</h2>
+                        </div>
+                        <div id="timeline_2" className="col-xs-12 col-sm-12 ">
+                            {/* Da Nang University  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Da Nang University of Science and Technology</h5>
+                                <h4 className="item-title">Hugo English Club</h4>
+                                <p>Participation & Excellent Contributions in Hugo Staff 2018-2020, Da Nang University of Science and Technology. (Social Media Leader )</p>
+                                <a href="https://hugoenglish.club/">
+                                    {" "}hugoenglish
+                                </a>
+                                <h4 className="item-title">Learning Express</h4>
+                                <p>In recognition of completion of Learning Express 2019, Da Nang University of Science and Technology + Singapore Polytechnic University. (Leader )</p>
+                                <a href="https://www.facebook.com/learningexpressindut">
+                                    {" "}learningexpressindut
+                                </a>
+                                <h4 className="item-title">Faculty Activities</h4>
+                                <p>Certificate of excellent completion in the delegation movement for 3 consecutive years from 2018 to 2021</p>
+                                <a href="https://www.facebook.com/wrefdn">
+                                    {" "}WREF
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                {/* References*/}
+                                <div className="row">
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <div className="block-title">
+                            <h2>References</h2>
+                        </div>
+                        <div id="timeline_2" className="col-xs-12 col-sm-12 ">
+                            {/* International  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Da Nang University of Science and Technology</h5>
+                                <h4 className="item-title">Assoc. Prof. Vo Ngoc Duong</h4>
+                                <p>Faculty of Water Resource Engineering</p>
+                                <a href="http://scv.udn.vn/vnduong" target="_blank" >
+                                    {" "}scv.udn.vn
+                                </a>
+                            </div>
+                    
+                        </div>
+                    </div>
+                    <div className=" col-xs-12 col-sm-6 ">
+                        <div className="block-title" style={{opacity: 0}}>
+                            <h2>xxxx</h2>
+                        </div>
+                        <div id="timeline_2" className="col-xs-12 col-sm-12 ">
+                            {/* Da Nang University  */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Da Nang University of Science and Technology</h5>
+                                <h4 className="item-title">PhD. Pham Thanh Hung</h4>
+                                <p>Faculty of Water Resource Engineering</p> 
+                                <a href="http://scv.udn.vn/pthung" target="_blank" >
+                                    {" "}scv.udn.vn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Languages */}
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="block-title p-20">
@@ -335,7 +456,6 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className=" col-xs-12 col-sm-6 ">
                         <a href="/img/resume/" className="lightbox">
@@ -390,119 +510,16 @@ const ResumePage: React.FC<PageProps> = () => {
                         </a>
                     </div>
                 </div>
-
-                {/* <div className="row">
-                    <div className=" col-xs-12 col-sm-12 ">
-                        <div className="block-title p-20">
-                            <h2>Certificates</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="row">
-                    <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/blockchain-basic-certificate.jpg" className="lightbox">
-                            <div className="certificate-item clearfix">
-                                <div className="certi-logo">
-                                    <img src="/img/resume/funix-logo.png" alt="logo" />
-                                </div>
-
-                                <div className="certi-content">
-                                    <div className="certi-title">
-                                        <h4>Blockchain Basic</h4>
-                                    </div>
-
-                                    <div className="certi-id">
-                                        <span>Reference: FX220347SC</span>
-                                    </div>
-                                    <div className="certi-date">
-                                        <span>19 January 2022</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/smart-contract-certificate.jpg" className="lightbox">
-                            <div className="certificate-item clearfix">
-                                <div className="certi-logo">
-                                    <img src="/img/resume/funix-logo.png" alt="logo" />
-                                </div>
-
-                                <div className="certi-content">
-                                    <div className="certi-title">
-                                        <h4>Smart Contract</h4>
-                                    </div>
-
-                                    <div className="certi-id">
-                                        <span>Reference: FX220924SC</span>
-                                    </div>
-                                    <div className="certi-date">
-                                        <span>02 March 2022</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/decentralized-application-development-certificate.jpg" className="lightbox">
-                            <div className="certificate-item clearfix">
-                                <div className="certi-logo">
-                                    <img src="/img/resume/funix-logo.png" alt="logo" />
-                                </div>
-
-                                <div className="certi-content">
-                                    <div className="certi-title">
-                                        <h4>Decentralized Application Development</h4>
-                                    </div>
-
-                                    <div className="certi-id">
-                                        <span>Reference: FX222515SC</span>
-                                    </div>
-                                    <div className="certi-date">
-                                        <span>21 May 2022</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className=" col-xs-12 col-sm-6">
-                        <a href="/img/resume/blockchain-platforms-certificate.jpg" className="lightbox">
-                            <div className="certificate-item clearfix">
-                                <div className="certi-logo">
-                                    <img src="/img/resume/funix-logo.png" alt="logo" />
-                                </div>
-
-                                <div className="certi-content">
-                                    <div className="certi-title">
-                                        <h4>Blockchain Platforms</h4>
-                                    </div>
-
-                                    <div className="certi-id">
-                                        <span>Reference: FX223000SC</span>
-                                    </div>
-                                    <div className="certi-date">
-                                        <span>16 June 2022</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div> */}
-
+                {/* Skills */}
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
                         <div className="p-40"></div>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="col-xs-12 col-sm-6">
                         <div className="block-title">
-                            <h2>Coding Skills</h2>
+                            <h2>Academic Skills</h2>
                         </div>
 
                         <div className="skills-info skills-first-style">
