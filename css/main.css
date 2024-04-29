@@ -2088,6 +2088,11 @@ ul.social-links li:last-child a {
     font-size: .92em;
 }
 
+.item-description {
+    text-align: justify; /* Justifies text to align evenly on both sides */
+    text-justify: inter-word; /* Improves spacing between words rather than stretching them */
+}
+
 /* /Timeline */
 
 /* Project Items */
