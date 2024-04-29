@@ -37,17 +37,17 @@ const ProjectPage: React.FC<PageProps> = () => {
                                         Passgenix Solutions
                                     </a>
                                 </li>
-
-                                <li>
-                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.DATAHOUSE}>
-                                        DataHouse
-                                    </a>
-                                </li>
                                 <li>
                                     <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.THERIKE}>
                                         The Rike
                                     </a>
                                 </li>
+                                <li>
+                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.DATAHOUSE}>
+                                        DataHouse
+                                    </a>
+                                </li>
+
                                 <li>
                                     <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.WEB_DEVELOPMENT}>
                                         Web Development
@@ -68,11 +68,11 @@ const ProjectPage: React.FC<PageProps> = () => {
                                         Data Analyzing
                                     </a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.BLOCKCHAIN}>
                                         Blockchain
                                     </a>
-                                </li>
+                                </li> */}
                             </ul>
 
                             {/* <!-- Portfolio Grid --> */}
