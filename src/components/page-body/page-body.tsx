@@ -107,11 +107,11 @@ const PageBody: React.FC<{
                     <footer className="site-footer clearfix">
                         <div className="footer-social">
                             <ul className="footer-social-links">
-                                <li>
+                                {/* <li>
                                     <a href="https://github.com/nabatti99" target="_blank">
                                         Github
                                     </a>
-                                </li>
+                                </li> */}
 
                                 <li>
                                     <a href="https://www.facebook.com/profile.php?id=100010185792295" target="_blank">
