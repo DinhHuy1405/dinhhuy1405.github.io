@@ -8,7 +8,7 @@ const HomePage: React.FC<PageProps> = () => {
     const whatICanDoContents = [
         {
             icon: "linecons-display",
-            title: "Full-stack Data Engineer",
+            title: "Data Engineer",
             description:
                 "I can hold various positions, data engineer, data analyst, data scientist and have also worked on projects for all the above positions. I am skilled at collecting, storing, processing and analyzing large amounts of data, proficient in using a variety of tools and programming languages to transform raw data into actionable insights that drive promote strategic decision making. I am trying to build myself to go further in my career and perfect the above skills.",
         },
@@ -125,13 +125,14 @@ const HomePage: React.FC<PageProps> = () => {
                                             </div> */}
 
                                             <div className="item">
-                                                <h4>Full-Stack Data Engineer</h4>
+                                                <h4>Data Engineer</h4>
                                             </div>
                                         </div>
 
                                         <h1>Nguyen Dinh Huy</h1>
                                         <p>
-                                            You can call me Tim.
+                                        Welcome to my Portfolio!
+                                         
                                         </p>
 
                                         <div className="home-buttons">

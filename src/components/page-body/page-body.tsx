@@ -128,7 +128,7 @@ const PageBody: React.FC<{
                         </div>
 
                         <div className="footer-copyrights">
-                            <p>Nguyen Dinh Huy - Full Stack Data Engineer</p>
+                            <p>Nguyen Dinh Huy - Data Engineer</p>
                         </div>
                     </footer>
                     {/* <!-- /Footer --> */}
