@@ -129,8 +129,8 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p>
                                     <strong>Major:</strong> Informatic Construction
                                 </p>
-                                <p>Merges computer science with engineering practices, empowering to design, develop, and implement robust software systems.</p>
-                                <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p>
+                                {/* <p>Merges computer science with engineering practices, empowering to design, develop, and implement robust software systems.</p>
+                                <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p> */}
                             </div>
                         </div>
                     </div>
@@ -216,11 +216,12 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <h5 className="item-period current">International</h5>
                                 <h4 className="item-title">International Programming Contest (2021)</h4>
                                 <p>First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.</p>
+                                News: 
                                 <a href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">
                                     {" "}VOV - News{" "}
                                 </a>
                                 |
-                                <a href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html"> Nhandan.com - News</a>
+                                <a href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">{" "}Nhandan.com - News{" "}</a>
                                 |
                                 <a href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">
                                     {" "}Doanthanhnien - News{" "}
@@ -230,13 +231,13 @@ const ResumePage: React.FC<PageProps> = () => {
                                     {" "}Daihocdanang - News{" "}
                                 </a>
                                 |
-                                <a href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp"> Vietnamplus - News</a>
+                                <a href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">{" "}Vietnamplus - News{" "}</a>
                                 |
                                 <a href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">
                                     {" "}ThanhGiong - News{" "}
                                 </a>
                                 |
-                                <a href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo"> TienPhong - News</a>
+                                <a href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">{" "}TienPhong - News{" "}</a>
                                 |
                                 <a href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">
                                     {" "}See more...
@@ -247,6 +248,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <h5 className="item-period current">National</h5>
                                 <h4 className="item-title">Vietnam AI and Blockchain Programming Contest (2023)</h4>
                                 <p>Consolation prize of Vietnam AI and Blockchain Programming Contest 2023 - Oraichain Hackathon.</p>
+                                News: 
                                 <a href="https://doanthanhnien.vn/tin-tuc/tuoi-tre-sang-tao/tong-ket-trao-giai-cuoc-thi-%E2%80%9Coraichain-hackathon%E2%80%9D-nam-2023">
                                     {" "}Doanthanhnien{" "}
                                 </a>
@@ -262,9 +264,11 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <h5 className="item-period current">Da Nang City</h5>
                                 <h4 className="item-title">Da Nang Startup Runway competition (2021)</h4>
                                 <p>First prize of the Da Nang Startup Runway competition 2021.</p>
+                                News:
                                 <a href="http://due.udn.vn/en-us/news/newsdetail/id/14143">
                                     {" "}
                                     due.udn.vn
+                                    {" "}
                                 </a>
                                 | 
                                 <a href="https://tuoitredhdn.udn.vn/doan-dai-hoc-da-nang/co-so-doan-thanh-vien/truong-dai-hoc-kinh-te-dhdn-to-chuc-thanh-cong-chung-ket-startup-runway-2021-nhieu-y-tuong-khoi-nghiep-duoc-ho-tro-de-ung-dung-thuc-tien-1672.html">
@@ -272,6 +276,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 </a>
                                 <h4 className="item-title">Da Nang Science Research Student (2021)</h4>
                                 <p>Consolation Prize of Da Nang Science Research Student 2021.</p>
+                                News:
                                 <a href="hhttps://en.dut.udn.vn/results-of-the-selection-of-topics-for-the-final-round-of-the-student-scientific-research-contest-in-danang-city-in-2021-70.html">
                                     {" "}dut.udn{" "}
                                 </a>
@@ -289,6 +294,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <h5 className="item-period current">Da Nang University</h5>
                                 <h4 className="item-title">Technology Innovation Startup Competition (2021)</h4>
                                 <p>Second prize in the Technology Innovation Startup Competition at the University of Danang in 2021.</p>
+                                News:
                                 <a href="https://www.udn.vn/english/Detail/the-final-round-of-innovative-technology-entrepreneurship-the-university-of-danang-2021-contest-spreading-the-spirit-of-innovation-40">
                                     {" "}udn.vn
                                 </a>
@@ -300,6 +306,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <h5 className="item-period current">Da Nang University of Science and Technology</h5>
                                 <h4 className="item-title">Scientific Research and Technology Exhibition BK-TechShow (2020, 2021, 2022)</h4>
                                 <p>One Best Presentation Second Prize, Two Technical Second Prizes, and One Technical Third Prize were awarded in the student competition for Danang University of Science and Technology's scientific research and technology exhibition BK-TechShow from 2020 to 2022.</p>
+                                News:
                                 <a href="https://danang.gov.vn/chinh-quyen/chi-tiet?id=51607&_c=3,9,33">
                                     {" "}danang.gov.vn{" "}
                                 </a>
@@ -309,6 +316,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 </a>
                                 <h4 className="item-title">Hult Prize (2021)</h4>
                                 <p>Second prize in the Hult Prize startup competition at DUT 2021.</p>
+                                News:
                                 <a href="https://baodanang.vn/english/education-science/202101/hult-prize-at-dut-useful-startup-playground-for-students-3875737/">
                                     {" "}baodanang{" "}
                                 </a>

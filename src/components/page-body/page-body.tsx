@@ -67,7 +67,7 @@ const PageBody: React.FC<{
                                     </li>
 
                                     <li className="menu-item">
-                                        <a href="/educational">Educational (CV)</a>
+                                        <a href="/educational">Education</a>
                                     </li>
                                     <li className="menu-item">
                                         <a href="/resume">Resume (CV)</a>

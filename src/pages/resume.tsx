@@ -26,6 +26,14 @@ const ResumePage: React.FC<PageProps> = () => {
         level: keyof typeof codingSkillInfos;
     }[] = [
         {
+            name: "AppSheet",
+            level: "advanced",
+        },
+        {
+            name: "Excel",
+            level: "intermediate",
+        },
+        {
             name: "HTML / CSS",
             level: "intermediate",
         },
@@ -139,7 +147,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                      {" "}Passgenix Solutions
                                 </a>
                                 <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
-                                <p class="item-description">
+                                <p className="item-description">
                                    My friends and I have done many projects together since we were students. We have deployed and participated in many different technology projects to help businesses and customers deploy innovative products. products and projects on AI, Blockchain, Web and App. Realizing that our capacity and skills are sufficient to deploy technology products in the most professional way, we established Passgenix. Even though it is a company, this is still a technology team that needs to learn and develop. We call ourselves a team instead of a company.
                                 </p>
 
@@ -150,7 +158,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                     {" "}The Rike
                                 </a>
                                 <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
-                                <p class="item-description">
+                                <p className="item-description">
                                     The Rike is a company founded in 2014 in the US and trades agricultural products such as tea, leaves and seeds from Vietnam and Southeast Asian countries to the US market. I joined The Rike in early 2023 with the task of performing technology-related tasks. But realizing many problems, I participated in human resource management, bringing technology into all fields and positions related to Sales, Purchasing, Marketing, Finance, Warehousing, Logistics,... . From here, I was assigned the task of managing and operating the business. I am still on a journey to improve my ability to adapt to the ever-evolving market.
                                 </p>
                             </div>
@@ -168,15 +176,15 @@ const ResumePage: React.FC<PageProps> = () => {
                                     {" "}Data House
                                 </a>
                                 <h4 className="item-title">Data Engineer</h4>
-                                <p class="item-description">
+                                <p className="item-description">
                                     After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
-                                <p class="item-description">
+                                <p className="item-description">
                                     <strong>Data Engineer:</strong> Reliable data flows, infrastructure, pipelines, ETL, structured and unstructured data storage. Ability to combine and build applications linked to Data.
                                 </p>
-                                <p class="item-description">
+                                <p className="item-description">
                                     <strong>Data Analytics</strong> retrieve relevant data from various sources and prepare it for further analysis. Based on the analysis, a data analyst needs to draw conclusions and complete reports and illustrations.
                                 </p>
-                                <p class="item-description">
+                                <p className="item-description">
                                     <strong>Data Scientist</strong> statistical, econometric, and machine learning techniques to extract insights from data, enabling informed decision-making and strategic business development.
                                 </p>
                             </div>

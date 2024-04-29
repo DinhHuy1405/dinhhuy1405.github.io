@@ -138,6 +138,7 @@ const HomePage: React.FC<PageProps> = () => {
                                             <a href="/assets/Dinh-Huy-Nguyen_dt.pdf" download="Dinh-Huy-Nguyen_dt.pdf" className="btn btn-primary">
                                                 Download CV
                                             </a>
+                                            
                                             <a href="/contact" target="_self" className="btn btn-secondary">
                                                 Contact Me
                                             </a>
