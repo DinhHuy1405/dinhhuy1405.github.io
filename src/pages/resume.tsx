@@ -41,6 +41,10 @@ const ResumePage: React.FC<PageProps> = () => {
             name: "JavaScript",
             level: "intermediate",
         },
+        {
+            name: "Python",
+            level: "intermediate",
+        },
 
         {
             name: "SQL",
