@@ -129,6 +129,14 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p>
                                     <strong>Major:</strong> Informatic Construction
                                 </p>
+                                <p>
+                                    <strong>Graduation Thesis:</strong> 
+                                    {" "}(Scored: 9.6/10, Ranked: 1){" "}
+                                    <a href="https://drive.google.com/file/d/1nd-pqffyTHIu3_F33YlOHsGKh2qUBpts/view?usp=sharing" target="_blank" className="item-company">
+                                    APPLICATION OF ARTIFICIAL INTELLIGENCE IN FLOORPLAN GENERATION IN ARCHITECTURAL DESIGN
+
+                                </a>
+                                </p>
                                 {/* <p>Merges computer science with engineering practices, empowering to design, develop, and implement robust software systems.</p>
                                 <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p> */}
                             </div>
