@@ -127,7 +127,7 @@ const ResumePage: React.FC<PageProps> = () => {
 
                                 <h4 className="item-title">Water Resource Engineering</h4>
                                 <p>
-                                    <strong>Major:</strong> Informatic Construction
+                                    <strong>Major:</strong> Construction Informatic
                                 </p>
                                 <p>
                                     <strong>Graduation Thesis:</strong> 
@@ -226,26 +226,26 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p>First prize of the international programming contest UAVS Hackatrix 2021 in New South Wales, Australia.</p>
                                 News: 
                                 <a href="https://vov.vn/nguoi-viet/ung-dung-ho-tro-nong-dan-trong-trong-trot-gianh-giai-nhat-cuoc-thi-uavs-hackatrix-2021-895514.vov">
-                                    {" "}VOV - News{" "}
+                                    {" "}VOV{" "}
                                 </a>
                                 |
-                                <a href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">{" "}Nhandan.com - News{" "}</a>
+                                <a href="https://nhandan.vn/sinh-vien-da-nang-dat-giai-nhat-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-post668283.html">{" "}Nhandan.com{" "}</a>
                                 |
                                 <a href="https://doanthanhnien.ctuet.edu.vn/2021/10/05/chung-ket-uavs-hackatrix-2021-hoi-tu-nhung-y-tuong-cong-nghe-dot-pha/">
-                                    {" "}Doanthanhnien - News{" "}
+                                    {" "}Doanthanhnien{" "}
                                 </a>
                                 |
                                 <a href="https://www.udn.vn/bankhcnmt/tin-tuc/sinh-vien-dai-hoc-da-nang-dat-quan-quan-cuoc-thi-y-tuong-cong-nghe-uavs-hackatrix-2021-voi-ung-dung-ho-tro-nong-dan-trong-trot">
-                                    {" "}Daihocdanang - News{" "}
+                                    {" "}Daihocdanang{" "}
                                 </a>
                                 |
-                                <a href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">{" "}Vietnamplus - News{" "}</a>
+                                <a href="https://www.vietnamplus.vn/sinh-vien-viet-o-australia-hien-ke-thuc-day-phat-trien-cong-nghiep-post744756.vnp">{" "}Vietnamplus{" "}</a>
                                 |
                                 <a href="https://thanhgiong.vn/chung-ket-uavs-hackatrix-2021-ung-dung-ho-tro-nong-dan-trong-trong-trot-cua-sinh-vien-da-nang-gianh-giai-nhat-45825.html">
-                                    {" "}ThanhGiong - News{" "}
+                                    {" "}ThanhGiong{" "}
                                 </a>
                                 |
-                                <a href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">{" "}TienPhong - News{" "}</a>
+                                <a href="https://svvn.tienphong.vn/phan-mem-ho-tro-nong-dan-cua-ba-sinh-vien-dh-da-nang-post1384067.tpo">{" "}TienPhong{" "}</a>
                                 |
                                 <a href="https://www.google.com/search?q=UAVS+Hackatrix+2021&oq=UAVS+Hackatrix+2021&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEHSAQg4Mjg4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1">
                                     {" "}See more...
@@ -262,7 +262,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 </a>
                                 |
                                 <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0nwdwCe9ggq6yBdiBQrpDC6AyMh4NMqGeEqVTidqc753raFjnQh6jTXrk8AJL1Nkzl%26id%3D100010185792295&show_text=true&width=500&is_preview=true%22%20width%3D%22500%22%20height%3D%220%22%20style%3D%22border%3Anone%3Boverflow%3Ahidden%22%20scrolling%3D%22no%22%20frameborder%3D%220%22%20allowfullscreen%3D%22true%22%20allow%3D%22autoplay%3B%20clipboard-write%3B%20encrypted-media%3B%20picture-in-picture%3B%20web-share">
-                                    {" "}Facebookshare - News{" "}
+                                    {" "}Facebookshare{" "}
                                 </a>
                                 <h4 className="item-title">National Scientific Research (2022)</h4>
                                 <p>Consolation of National Scientific Research Award 2021 – 2022.</p>
@@ -373,7 +373,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 </a>
                                 |
                                 <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0nwdwCe9ggq6yBdiBQrpDC6AyMh4NMqGeEqVTidqc753raFjnQh6jTXrk8AJL1Nkzl%26id%3D100010185792295&show_text=true&width=500&is_preview=true%22%20width%3D%22500%22%20height%3D%220%22%20style%3D%22border%3Anone%3Boverflow%3Ahidden%22%20scrolling%3D%22no%22%20frameborder%3D%220%22%20allowfullscreen%3D%22true%22%20allow%3D%22autoplay%3B%20clipboard-write%3B%20encrypted-media%3B%20picture-in-picture%3B%20web-share">
-                                    {" "}Facebookshare - News{" "}
+                                    {" "}Facebookshare{" "}
                                 </a>
                                 <h4 className="item-title">National Scientific Research (2022)</h4>
                                 <p>Consolation of National Scientific Research Award 2021 – 2022.</p>
