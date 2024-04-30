@@ -55,7 +55,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100%;
-    background-color: #92B9E3;
+    background-color: #99E2FF;
     background-position: center center;
     background-size: calc(100% + 25px);
     background-repeat: repeat;
@@ -166,7 +166,7 @@ a {
 }
 
 a:hover {
-    color: #92B9E3;
+    color: #99E2FF;
     text-decoration: none;
     outline: none;
 }
@@ -334,7 +334,7 @@ textarea.form-control:focus {
     top: 0;
     opacity: 0;
     background: transparent !important;
-    border: 2px solid #92B9E3;
+    border: 2px solid #99E2FF;
     border-right-width: 0;
     height: 100%;
     -webkit-transition: all 0.3s ease-in-out;
@@ -409,7 +409,7 @@ textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-    color: #92B9E3;
+    color: #99E2FF;
 }
 
 .form-group.form-group-w-checkbox {
@@ -508,7 +508,7 @@ input[type="submit"],
     line-height: 1.2;
     border: 0;
     outline: 0;
-    border: 2px solid #92B9E3;
+    border: 2px solid #99E2FF;
     color: #222;
     text-shadow: none;
     background-color: #fff;
@@ -539,9 +539,9 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    background-color: #92B9E3;
+    background-color: #99E2FF;
     color: #fff;
-    border: 2px solid #92B9E3;
+    border: 2px solid #99E2FF;
 }
 
 .btn-secondary {
@@ -565,11 +565,11 @@ input[type="submit"]:focus {
 /* / buttons */
 
 .border-top {
-    border-top: 2px solid #92B9E3;
+    border-top: 2px solid #99E2FF;
 }
 
 .border-bottom {
-    border-bottom: 2px solid #92B9E3;
+    border-bottom: 2px solid #99E2FF;
 }
 
 /* Footer */
@@ -791,7 +791,7 @@ td {
     width: 52px;
     height: 52px;
     margin: 100px auto;
-    background-color: #92B9E3;
+    background-color: #99E2FF;
 
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -1274,7 +1274,7 @@ td {
     width: 44px;
     height: 44px;
     line-height: 44px;
-    background-color: #92B9E3;
+    background-color: #99E2FF;
     border-radius: 100px;
     text-align: center;
     color: #fff;
@@ -1650,7 +1650,7 @@ h3.comment-reply-title:after {
     position: absolute;
     content: '';
     width: 30px;
-    background-color: #92B9E3;
+    background-color: #99E2FF;
     height: 2px;
     bottom: 0;
 }
@@ -1667,7 +1667,7 @@ h3.comment-reply-title:before {
 }
 
 .block-title h3 span {
-    color: #92B9E3;
+    color: #99E2FF;
 }
 
 .custom-page-content .block {
