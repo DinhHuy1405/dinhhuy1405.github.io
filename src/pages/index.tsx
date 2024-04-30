@@ -12,25 +12,12 @@ const HomePage: React.FC<PageProps> = () => {
             description:
                 "I can hold various positions, data engineer, data analyst, data scientist and have also worked on projects for all the above positions. I am skilled at collecting, storing, processing and analyzing large amounts of data, proficient in using a variety of tools and programming languages to transform raw data into actionable insights that drive promote strategic decision making. I am trying to build myself to go further in my career and perfect the above skills.",
         },
-        // {
-        //     icon: "linecons-data",
-        //     title: "Data Analyzing",
-        //     description:
-        //         "With strong data analysis skills. Can clean, explore, and analyze complex datasets, leveraging statistical methods to uncover trends and patterns. Creating clear and compelling data visualizations to communicate findings effectively.",
-        // },
         {
             icon: "linecons-world",
             title: "Technology Business Development & Team Management",
             description:
                 "At PassgenixSolutions, a technology company, I lead a 10-member team focused on delivering innovative projects and products in areas such as blockchain, AI, mobile, web applications. At the same time, I manage a business (The Rike) specializing in international trading of more than 400 Vietnamese agricultural products. The business operates a complex remote warehousing and logistics network, successfully marketing and distributing these goods on major US platforms including Amazon, eBay, Shopify and TikTok Shop. My role involves overseeing strategy, ensuring seamless integration of technology solutions and effective market penetration, while maintaining strong team leadership and operations management.",
         },
-        
-        // {
-        //     icon: "linecons-bulb",
-        //     title: "AI Engineering",
-        //     description:
-        //         "Strong background in AI engineering. Bridge the gap between theoretical AI concepts and real-world applications. Skilled in building, deploying, and optimizing machine learning models, along with designing and managing the infrastructure.",
-        // },
 
     ];
 
@@ -128,12 +115,12 @@ const HomePage: React.FC<PageProps> = () => {
                                                 <h4>Data Engineer</h4>
                                             </div>
                                         </div>
-
-                                        <h1>Nguyen Dinh Huy</h1>
-                                        <p>
+                                        {/* <h2>
                                         Welcome to my Portfolio!
                                          
-                                        </p>
+                                        </h2> */}
+                                        <h2>Nguyen Dinh Huy</h2>
+                                        
 
                                         <div className="home-buttons">
                                             <a href="/assets/Dinh-Huy-Nguyen_dt.pdf" download="Dinh-Huy-Nguyen_dt.pdf" className="btn btn-primary">
