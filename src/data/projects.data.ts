@@ -123,7 +123,7 @@ export const projects: Project[] = [
     },
     {
         name: "The Rike:  Management App",
-        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.THERIKE],
+        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.THERIKE,ProjectFilterCategory.DATA_ANALYZING],
         description: "This is a management app I built using Appsheet, a low-code platform from Google that allows interaction through google sheets. Because the majority of members work remotely and have an average age of over 30 years old, it is difficult to manage beyond Excel applications. I learned the appsheet myself and successfully deployed the system.",
         thumbnail: "/img/projects/therike-warehouse/Screenshot 2024-04-29 at 21.53.55.png",
         clientLogo: "/img/clients/the-rike.png",
@@ -137,7 +137,7 @@ export const projects: Project[] = [
     },
     {
         name: "The Rike: Organize a system of e-commerce platforms",
-        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.THERIKE],
+        filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.THERIKE,ProjectFilterCategory.DATA_ANALYZING],
         description: "The problem is how to organize data, apply techniques and APIs to synchronize all systems of e-commerce platforms and goods management applications of more than 4 warehouses located across the country. America, in Vietnam and how long does it take from the purchasing stage until the goods are shipped to the US and how is it controlled? Because when a customer buys a product on one system, the other platforms must be synchronized and the warehouse side will ship the goods.",
         thumbnail: "/img/projects/therike-warehouse/image copy.png",
         clientLogo: "/img/clients/the-rike.png",

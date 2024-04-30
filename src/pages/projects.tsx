@@ -65,7 +65,7 @@ const ProjectPage: React.FC<PageProps> = () => {
                                 </li>
                                 <li>
                                     <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.DATA_ANALYZING}>
-                                        Data Analyzing
+                                        Data 
                                     </a>
                                 </li>
                                 {/* <li>
