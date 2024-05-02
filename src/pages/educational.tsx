@@ -152,15 +152,15 @@ const ResumePage: React.FC<PageProps> = () => {
 
                         <div id="timeline_1" className="timeline clearfix">
                             <div className="timeline-item clearfix">
-                                <h5 className="item-paper">2-2023</h5>
+                                <h5 className="item-paper">12-2022</h5>
                                 <a href="https://drive.google.com/file/d/1HFKENMTkHRCHVbvzTjZjloY3Vijtpda6/view?usp=sharing" target="_blank" className="item-company">
                                     N.D.Huy, N.L.A.Minh, P.T.Hung, “Using AI and Blockchain in Construction," Da Nang University of Science and Technology, Da Nang City.
                                 </a>
                             </div>
                             <div className="timeline-item clearfix">
-                                <h5 className="item-paper">3-2022</h5>
+                                <h5 className="item-paper">12-2022</h5>
                                 <a href="https://drive.google.com/file/d/1JA5B-WaL-xGWidOly_IqIYHG6GkJk5kJ/view?usp=sharing" target="_bank" className="item-company">
-                                    N.D.Huy, N.L.A.Minh, P.T.Hung, V.N.D.Phuoc, "Hydrology mobile application ecosystem," Da Nang University of Science and Technology, Da Nang
+                                    N.D.Huy, N.L.A.Minh, N.T.Hao, V.N.D.Phuoc, "Hydrology mobile application ecosystem," Da Nang University of Science and Technology, Da Nang
                                     City.
                                 </a>
                             </div>
