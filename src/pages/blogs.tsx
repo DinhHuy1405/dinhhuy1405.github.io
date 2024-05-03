@@ -8,7 +8,7 @@ const ProjectPage: React.FC<PageProps> = () => {
     return (
         <PageBody>
             <div className="page-title">
-                <h1>Blog</h1>
+                <h2>Blog: Coming soon!</h2>
                 <div className="page-subtitle">
                     <h4> My Diary</h4>
                 </div>
@@ -21,7 +21,7 @@ const ProjectPage: React.FC<PageProps> = () => {
 
                     <div className="blog-masonry two-columns clearfix">
                       {/* <!-- Blog Post 1 --> */}
-                      <div className="item">
+                      {/* <div className="item">
                         <div className="blog-card">
                           <div className="media-block">
                             <div className="category">
@@ -39,11 +39,11 @@ const ProjectPage: React.FC<PageProps> = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- End of Blog Post 1 --> */}
                       
                       {/* <!-- Blog Post 2 --> */}
-                      <div className="item">
+                      {/* <div className="item">
                         <div className="blog-card">
                           <div className="media-block">
                             <div className="category">
@@ -62,11 +62,11 @@ const ProjectPage: React.FC<PageProps> = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- End of Blog Post 2 --> */}
                       
                       {/* <!-- Blog Post 3 --> */}
-                      <div className="item">
+                      {/* <div className="item">
                         <div className="blog-card">
                           <div className="media-block">
                             <div className="category">
@@ -84,11 +84,11 @@ const ProjectPage: React.FC<PageProps> = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- End of Blog Post 3 --> */}
 
                       {/* <!-- Blog Post 4 --> */}
-                      <div className="item">
+                      {/* <div className="item">
                         <div className="blog-card">
                           <div className="media-block">
                             <div className="category">
@@ -106,11 +106,11 @@ const ProjectPage: React.FC<PageProps> = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- End of Blog Post 4 --> */}
                       
                       {/* <!-- Blog Post 5 --> */}
-                      <div className="item">
+                      {/* <div className="item">
                         <div className="blog-card">
                           <div className="media-block">
                             <div className="category">
@@ -128,11 +128,11 @@ const ProjectPage: React.FC<PageProps> = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- End of Blog Post 5 --> */}
                       
                       {/* <!-- Blog Post 6 --> */}
-                      <div className="item">
+                      {/* <div className="item">
                         <div className="blog-card">
                           <div className="media-block">
                             <div className="category">
@@ -150,11 +150,11 @@ const ProjectPage: React.FC<PageProps> = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- End of Blog Post 6 --> */}
                     </div>
 
-                    <a className="btn btn-primary" href="#">See All Posts</a>
+                    {/* <a className="btn btn-primary" href="#">See All Posts</a> */}
                   </div>
                 </div>
 

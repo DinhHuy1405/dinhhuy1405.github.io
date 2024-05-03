@@ -143,7 +143,7 @@ const ResumePage: React.FC<PageProps> = () => {
                 <div className="row">
                     <div className=" col-xs-12 col-sm-6 ">
                         <div className="block-title">
-                            <h2>Experiences - Unofficial/Freelance</h2>
+                            <h2>Experiences</h2>
                         </div>
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2022 - Current</h5>

@@ -138,6 +138,19 @@ const HomePage: React.FC<PageProps> = () => {
                     </div>
                 </div>
                 {/* <!-- Home Page Top Part --> */}
+                <div className="row">
+                    <div className=" col-xs-12 col-sm-12 ">
+                        <div className="block-title">
+                            <h2>Welcome To My Portfolio!</h2>
+                        </div>
+                            <div className="timeline-item clearfix mb-0">
+                                 <p className="item-description">
+                                 I may not be the smartest, the most knowledgeable, or the most experienced in any particular field, but I am someone who is always eager to seize new opportunities and is driven by ambition. Thank you for visiting the Huy Tim Portfolio, which highlights key moments from my academic and career journey. While I may not know who you are, I'm delighted that you've stopped by to explore my profiles and stories.                                </p>
+
+                            </div>
+                    </div>
+
+                </div>
 
                 {/* <!-- Services --> */}
                 <div className="row">
