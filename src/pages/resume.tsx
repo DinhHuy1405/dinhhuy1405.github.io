@@ -187,7 +187,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                     <strong>Data Engineer:</strong> 
                                 </p>
                                 <p className="item-description">
-                                    (1) Leveraging my knowledge of Salesforce, I have developed a series of data querying algorithms that integrate with Salesforce’s fields, objects, and structural framework. Additionally, I have crafted and deployed back-end code using Python, which has culminated in the creation of a tool designed to automate testing for Salesforce project.
+                                    (1) Leveraging my knowledge of Salesforce, I queried the API and developed a series of data querying algorithms that integrate with Salesforce’s fields, objects, and structural framework. Additionally, I have crafted and deployed back-end code using Python, which has culminated in the creation of a tool designed to automate testing for Salesforce project.
                                 </p>
                                 <p className="item-description">
                                     (2) Store the company's CVs on AWS and develop code locally to extract data from these raw CVs. Starting with an initial dataset, we create a dynamic set of data that is regularly updated and refined based on Word documents.....
