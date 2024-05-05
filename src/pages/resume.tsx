@@ -179,17 +179,35 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <a href="https://www.datahouse.com" >
                                     {" "}DataHouse
                                 </a>
-                                <h4 className="item-title">Data Engineer</h4>
+                                <h4 className="item-title">Data Engineer </h4>
                                 <p className="item-description">
                                     After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
+                                {/* Data Engineer */}
                                 <p className="item-description">
-                                    <strong>Data Engineer:</strong> Reliable data flows, infrastructure, pipelines, ETL, structured and unstructured data storage. Ability to combine and build applications linked to Data.
+                                    <strong>Data Engineer:</strong> 
                                 </p>
                                 <p className="item-description">
-                                    <strong>Data Analytics</strong> retrieve relevant data from various sources and prepare it for further analysis. Based on the analysis, a data analyst needs to draw conclusions and complete reports and illustrations.
+                                    (1) Leveraging my knowledge of Salesforce, I have developed a series of data querying algorithms that integrate with Salesforce’s fields, objects, and structural framework. Additionally, I have crafted and deployed back-end code using Python, which has culminated in the creation of a tool designed to automate testing for Salesforce project.
                                 </p>
                                 <p className="item-description">
-                                    <strong>Data Scientist</strong> statistical, econometric, and machine learning techniques to extract insights from data, enabling informed decision-making and strategic business development.
+                                    (2) Store the company's CVs on AWS and develop code locally to extract data from these raw CVs. Starting with an initial dataset, we create a dynamic set of data that is regularly updated and refined based on Word documents.....
+                                </p>
+                                {/* Data Analyst */}
+                                <p className="item-description">
+                                    <strong>Data Analyst :</strong> 
+                                </p>
+                                <p className="item-description">
+                                    (1) I am involved in a project that entails building dashboards using AWS Quicksight. My role includes processing and performing calculations on raw data, as well as designing and executing additional tasks according to business requirements.
+                                </p>
+                                {/* Data Scientist */}
+                                <p className="item-description">
+                                    <strong>Data Scientist : </strong> 
+                                </p>
+                                <p className="item-description">
+                                    (1) I involved in a project that utilizes AWS Machine Learning Model to develop a Fraud Detector designed to pinpoint fraudulent transactions. Additionally, I author test cases based on S3 configurations and boto3.
+                                </p>
+                                <p className="item-description">
+                                    (2) I have deployed the Google LLM model API to execute various tasks as per the team's requirements.
                                 </p>
                             </div>
                         </div>
