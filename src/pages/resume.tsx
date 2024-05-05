@@ -145,29 +145,41 @@ const ResumePage: React.FC<PageProps> = () => {
                         <div className="block-title">
                             <h2>Experiences</h2>
                         </div>
+                            {/* PassgenixSolutions */}
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2022 - Current</h5>
                                 <a href="https://passgenix.com">
                                      {" "}PassgenixSolutions
                                 </a>
-                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
+                                <h4 className="item-title">Co-founder & Team Management</h4>
                                 <p className="item-description">
-                                   My friends and I have done many projects together since we were students. We have deployed and participated in many different technology projects to help businesses and customers deploy innovative products. products and projects on AI, Blockchain, Web and App. Realizing that our capacity and skills are sufficient to deploy technology products in the most professional way, we established Passgenix. Even though it is a company, this is still a technology team that needs to learn and develop. We call ourselves a team instead of a company.
+                                My friends and I have been collaborating on various projects since our student days, engaging in diverse technology projects to help businesses and customers implement innovative products in AI, Blockchain, Web, and App development. Recognizing our capabilities and professional expertise in technology deployment, we founded Passgenix. Though structured as a company, we see ourselves more as a dynamic technology team committed to continuous learning and development. In this team, I play multiple roles, including customer acquisition, strategic planning, human resource coordination, launching new technology ideas, and handling various other operational duties.                                </p>
+                                <p className="item-description">
+                                <strong>AI Engineer:</strong> 
                                 </p>
-
+                                <p className="item-description">
+                                I have been conducting research and development on machine learning and deep learning models for a variety of applications, including drought prediction, flood forecasting, image recognition, and large language models.
+                                </p>
+                                <p className="item-description">
+                                <strong>Project Manager:</strong> 
+                                </p>
+                                <p className="item-description">
+                                I oversee detailed weekly planning for each team member, considering individual work preferences and customer requirements to ensure optimal personnel coordination and timely product release. Team members have the flexibility to work in the evenings, and I assign specific hours and tasks based on their capacity to deliver the products efficiently.
+                                </p>
                             </div>
+                            {/* The Rike */}
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2023 - Current</h5>
                                 <a href="https://therike.com" >
                                     {" "}The Rike
                                 </a>
-                                <h4 className="item-title">Co-founder & Technology Business Development and Team Management</h4>
+                                <h4 className="item-title">Co-founder & Technology Business Development</h4>
                                 <p className="item-description">
                                     The Rike is a company founded in 2014 in the US and trades agricultural products such as tea, leaves and seeds from Vietnam and Southeast Asian countries to the US market. I joined The Rike in early 2023 with the task of performing technology-related tasks. But realizing many problems, I participated in human resource management, bringing technology into all fields and positions related to Sales, Purchasing, Marketing, Finance, Warehousing, Logistics,... . From here, I was assigned the task of managing and operating the business. I am still on a journey to improve my ability to adapt to the ever-evolving market.
                                 </p>
                             </div>
                     </div>
-
+                    {/* Experiences - Official */}
                     <div className=" col-xs-12 col-sm-6 ">
                         <div className="block-title">
                             <h2>Experiences - Official</h2>
