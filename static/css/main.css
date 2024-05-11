@@ -2052,6 +2052,21 @@ ul.social-links li:last-child a {
     border: 2px solid #5CB3FF	;
     border-radius: 30px;
 }
+.timeline-item button.see-more-btn {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 0 10px 0px;
+    /* color: #666;
+    background-color: #fff;
+    padding: 0 10px; */
+    line-height: 10px;
+    border: 2px solid #5CB3FF	;
+    border-color: #ccc;
+    box-shadow: none;
+    text-shadow: none;
+}
 .timeline-item h5.item-paper {
     display: inline-block;
     position: relative;
@@ -2095,6 +2110,7 @@ ul.social-links li:last-child a {
 }
 
 /* /Timeline */
+
 
 /* Project Items */
 .project-items {

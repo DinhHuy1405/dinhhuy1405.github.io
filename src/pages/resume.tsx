@@ -1,5 +1,6 @@
 import { HeadFC, PageProps } from "gatsby";
 import * as React from "react";
+import { useState } from "react";
 import PageBody from "../components/page-body/page-body";
 import PageHead from "../components/page-head/page-head";
 import { upperCaseFirstLetter } from "../utilities/text.util";
@@ -129,6 +130,24 @@ const ResumePage: React.FC<PageProps> = () => {
             tooltip: "Can communicate in English and Vietnamese",
         },
     ];
+    // Example state added for "The Rike"
+    const [showSeeLessSeeMore_TheRike, setshowSeeLessSeeMore_TheRike] = useState(false);
+
+    const toggleshowSeeLessSeeMore_TheRike = () => {
+        setshowSeeLessSeeMore_TheRike(!showSeeLessSeeMore_TheRike);
+    };
+        // Example state added for "The Rike"
+        const [showSeeLessSeeMore_Passgenix, setshowSeeLessSeeMore_Passgenix] = useState(false);
+
+        const toggleshowSeeLessSeeMore_Passgenix = () => {
+            setshowSeeLessSeeMore_Passgenix(!showSeeLessSeeMore_Passgenix);
+        };
+            // Example state added for "The Rike"
+    const [showSeeLessSeeMore_DataHouse, setshowSeeLessSeeMore_DataHouse] = useState(false);
+
+    const toggleshowSeeLessSeeMore_DataHouse = () => {
+        setshowSeeLessSeeMore_DataHouse(!showSeeLessSeeMore_DataHouse);
+    };
 
     return (
         <PageBody>
@@ -154,29 +173,42 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <h4 className="item-title">Co-founder & Team Management</h4>
                                 <p className="item-description">
                                 My friends and I have been collaborating on various projects since our student days, engaging in diverse technology projects to help businesses and customers implement innovative products in AI, Blockchain, Web, and App development. Recognizing our capabilities and professional expertise in technology deployment, we founded Passgenix. Though structured as a company, we see ourselves more as a dynamic technology team committed to continuous learning and development. In this team, I play multiple roles, including customer acquisition, strategic planning, human resource coordination, launching new technology ideas, and handling various other operational duties.                                </p>
+                                {showSeeLessSeeMore_Passgenix && ( <>
                                 <p className="item-description">
                                 <strong>AI Engineer:</strong> 
                                 </p>
                                 <p className="item-description">
                                 I have been conducting research and development on machine learning and deep learning models for a variety of applications, including drought prediction, flood forecasting, image recognition, and large language models.
                                 </p>
+                                
                                 <p className="item-description">
                                 <strong>Project Manager:</strong> 
                                 </p>
+                                                                
                                 <p className="item-description">
                                 I oversee detailed weekly planning for each team member, considering individual work preferences and customer requirements to ensure optimal personnel coordination and timely product release. Team members have the flexibility to work in the evenings, and I assign specific hours and tasks based on their capacity to deliver the products efficiently.
                                 </p>
+                                </>)}  
+                                <button onClick={toggleshowSeeLessSeeMore_Passgenix} className="see-more-btn">
+                                    {showSeeLessSeeMore_Passgenix ? 'See Less' : 'See More'}
+                                </button>
                             </div>
-                            {/* The Rike */}
+                            {/* The Rike - modified section */}
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period">2023 - Current</h5>
-                                <a href="https://therike.com" >
-                                    {" "}The Rike
-                                </a>
+                                <h5 className="item-period">2023 - Mar 2024</h5>
+                                <a href="https://therike.com">The Rike</a>
                                 <h4 className="item-title">Co-founder & Technology Business Development</h4>
                                 <p className="item-description">
-                                    The Rike is a company founded in 2014 in the US and trades agricultural products such as tea, leaves and seeds from Vietnam and Southeast Asian countries to the US market. I joined The Rike in early 2023 with the task of performing technology-related tasks. But realizing many problems, I participated in human resource management, bringing technology into all fields and positions related to Sales, Purchasing, Marketing, Finance, Warehousing, Logistics,... . From here, I was assigned the task of managing and operating the business. I am still on a journey to improve my ability to adapt to the ever-evolving market.
+                                    The Rike is a company founded in 2014 in the US and trades agricultural products. I joined The Rike in early 2023 with tasks related to technology...
                                 </p>
+                                {showSeeLessSeeMore_TheRike && (
+                                    <p className="item-description">
+                                        But realizing many problems, I participated in human resource management, bringing technology into all fields and positions...
+                                    </p>
+                                )}
+                                <button onClick={toggleshowSeeLessSeeMore_TheRike} className="see-more-btn">
+                                    {showSeeLessSeeMore_TheRike ? 'See Less' : 'See More'}
+                                </button>
                             </div>
                     </div>
                     {/* Experiences - Official */}
@@ -195,6 +227,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p className="item-description">
                                     After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
                                 {/* Data Engineer */}
+                                {showSeeLessSeeMore_DataHouse && ( <>
                                 <p className="item-description">
                                     <strong>Data Engineer:</strong> 
                                 </p>
@@ -221,6 +254,10 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p className="item-description">
                                     (2) I have deployed the Google LLM model API to execute various tasks as per the team's requirements.
                                 </p>
+                                </>)}  
+                                <button onClick={toggleshowSeeLessSeeMore_DataHouse} className="see-more-btn">
+                                    {showSeeLessSeeMore_DataHouse ? 'See Less' : 'See More'}
+                                </button>
                             </div>
                         </div>
                     </div>
