@@ -199,13 +199,23 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <a href="https://therike.com">The Rike</a>
                                 <h4 className="item-title">Co-founder & Technology Business Development</h4>
                                 <p className="item-description">
-                                    The Rike is a company founded in 2014 in the US and trades agricultural products. I joined The Rike in early 2023 with tasks related to technology...
-                                </p>
-                                {showSeeLessSeeMore_TheRike && (
+                                The Rike is a company specializing in supplying a variety of Vietnamese farmers tea seeds to the US market with a staff of over 20 people stretching from North to South, Vietnam and warehouse headquarters located in the states. Illinois, Virginia, .... of America. I joined the team in early 2023 as the technology team leader, realized the company's problems and with my vision was appointed to the position of manager and co-founder of the company. , the jobs I have done.                                </p>
+                                {showSeeLessSeeMore_TheRike && ( <>
                                     <p className="item-description">
-                                        But realizing many problems, I participated in human resource management, bringing technology into all fields and positions...
+                                    <strong>Divide the company into specific departments:</strong> Purchasing team, sales team, technology team, accounting team, marketing team, shipping team.
                                     </p>
-                                )}
+                                    <p className="item-description">
+                                    <strong>Purchasing team:</strong> I implemented building a crawl data system from Amazon and Ebay, analyzed and predicted potential products, developed an app for the purchasing team to synchronize agricultural product forecasting, purchasing and Directly transferred to warehouses in the South.                                    </p>
+                                    <p className="item-description">
+                                    <strong>Technology team:</strong> building a company-wide synchronization system, employee management app, purchasing app, inventory app, order organization system and product sales on Ebay, Amazon, Shopify, Ebid platforms ,....</p>
+                                    <p className="item-description">
+                                    <strong>Sales and marketing team:</strong> analyze product listing formulas on competitors' e-commerce platforms, reorganize product listings with more than 600 products of all types.</p>
+                                    <p className="item-description">
+                                    <strong>Accounting team:</strong> set up budget for each team, classify debts and profit and expenses from the exchanges.</p>
+                                    <p className="item-description">
+                                    <strong>Shipping team:</strong> synchronize warehouses with shipped orders and organize data throughout the system</p>
+                                
+                                </>)}
                                 <button onClick={toggleshowSeeLessSeeMore_TheRike} className="see-more-btn">
                                     {showSeeLessSeeMore_TheRike ? 'See Less' : 'See More'}
                                 </button>
