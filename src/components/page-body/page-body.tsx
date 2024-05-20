@@ -67,10 +67,10 @@ const PageBody: React.FC<{
                                     </li>
 
                                     <li className="menu-item">
-                                        <a href="/educational">Education</a>
+                                        <a href="/educational">Academic CV</a>
                                     </li>
                                     <li className="menu-item">
-                                        <a href="/resume">Resume (CV)</a>
+                                        <a href="/resume">Professional CV</a>
                                     </li>
 
                                     <li className="menu-item">

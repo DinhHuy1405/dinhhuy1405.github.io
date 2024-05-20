@@ -237,7 +237,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p className="item-description">
                                     After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
                                 {/* Data Engineer */}
-                                {showSeeLessSeeMore_DataHouse && ( <>
+                                {/* {showSeeLessSeeMore_DataHouse && ( <> */}
                                 <p className="item-description">
                                     <strong>Data Engineer:</strong> 
                                 </p>
@@ -264,10 +264,10 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p className="item-description">
                                     (2) I have deployed the Google LLM model API to execute various tasks as per the team's requirements.
                                 </p>
-                                </>)}  
+                                {/* </>)}  
                                 <button onClick={toggleshowSeeLessSeeMore_DataHouse} className="see-more-btn">
                                     {showSeeLessSeeMore_DataHouse ? 'See Less' : 'See More'}
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                     </div>

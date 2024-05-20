@@ -54,7 +54,7 @@ const ContactPage: React.FC<PageProps> = () => {
                             <h2>How Can I Help You?</h2>
                         </div>
 
-                        <form id="contact_form" className="contact-form" action="contact_form/contact_form.php" method="post">
+                        <form action="https://formbold.com/s/981Zv" className="contact-form"  method="POST">
                             <div className="messages"></div>
 
                             <div className="controls two-columns">

@@ -94,7 +94,7 @@ const HomePage: React.FC<PageProps> = () => {
                                         <div
                                             className="hp-inner"
                                             style={{
-                                                backgroundImage: "url(/img/main_photo.jpg)",
+                                                backgroundImage: "url(/img/main_photo_3.png)",
                                             }}
                                         ></div>
                                     </div>
