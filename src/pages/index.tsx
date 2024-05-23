@@ -123,7 +123,7 @@ const HomePage: React.FC<PageProps> = () => {
                                         
 
                                         <div className="home-buttons">
-                                            <a href="/assets/Dinh-Huy-Nguyen_dt.pdf" download="Dinh-Huy-Nguyen_dt.pdf" className="btn btn-primary">
+                                            <a href="/assets/Nguyen Dinh Huy - CV.pdf" download="Nguyen Dinh Huy - CV.pdf" className="btn btn-primary">
                                                 Download CV
                                             </a>
                                             
