@@ -233,6 +233,9 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <a href="https://www.datahouse.com" >
                                     {" "}DataHouse
                                 </a>
+                                <h4 className="item-title">SalesForce Developer</h4>
+                                <p className="item-description">
+                                I have been interning for a Salesforce developer position since June 2022 and participated in a SalesForce project related to the government tax sector... and joined Data MigrationTeam before transitioning to the position new.</p>
                                 <h4 className="item-title">Data Engineer </h4>
                                 <p className="item-description">
                                     After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
