@@ -164,11 +164,11 @@ const ResumePage: React.FC<PageProps> = () => {
                         <div className="block-title">
                             <h2>Experiences</h2>
                         </div>
-                            {/* PassgenixSolutions */}
+                            {/* Passgenix */}
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2022 - Current</h5>
                                 <a href="https://passgenix.com">
-                                     {" "}PassgenixSolutions
+                                     {" "}Passgenix
                                 </a>
                                 <h4 className="item-title">Co-founder & Team Management</h4>
                                 <p className="item-description">
