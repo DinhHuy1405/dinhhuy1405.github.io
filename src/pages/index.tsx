@@ -16,7 +16,7 @@ const HomePage: React.FC<PageProps> = () => {
             icon: "linecons-world",
             title: "Technology Business Development & Team Management",
             description:
-                "At PassgenixSolutions, a technology company, I lead a 10-member team focused on delivering innovative projects and products in areas such as blockchain, AI, mobile, web applications. At the same time, I manage a business (The Rike) specializing in international trading of more than 400 Vietnamese agricultural products. The business operates a complex remote warehousing and logistics network, successfully marketing and distributing these goods on major US platforms including Amazon, eBay, Shopify and TikTok Shop. My role involves overseeing strategy, ensuring seamless integration of technology solutions and effective market penetration, while maintaining strong team leadership and operations management.",
+                "At Passgenix, a technology company, I lead a 10-member team focused on delivering innovative projects and products in areas such as blockchain, AI, mobile, web applications. At the same time, I manage a business (The Rike) specializing in international trading of more than 400 Vietnamese agricultural products. The business operates a complex remote warehousing and logistics network, successfully marketing and distributing these goods on major US platforms including Amazon, eBay, Shopify and TikTok Shop. My role involves overseeing strategy, ensuring seamless integration of technology solutions and effective market penetration, while maintaining strong team leadership and operations management.",
         },
 
     ];

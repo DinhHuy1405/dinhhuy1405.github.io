@@ -195,7 +195,7 @@ const ResumePage: React.FC<PageProps> = () => {
                             </div>
                             {/* The Rike - modified section */}
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period">2023 - 2024</h5>
+                                <h5 className="item-period">2023 - Current</h5>
                                 <a href="https://therike.com">The Rike</a>
                                 <h4 className="item-title">Co-founder & Technology Business Development</h4>
                                 <p className="item-description">
