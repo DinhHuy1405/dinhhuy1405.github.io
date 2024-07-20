@@ -195,9 +195,9 @@ const ResumePage: React.FC<PageProps> = () => {
                             </div>
                             {/* The Rike - modified section */}
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period">2023 - Current</h5>
+                                <h5 className="item-period">2-2023 - 5-2024</h5>
                                 <a href="https://therike.com">The Rike</a>
-                                <h4 className="item-title">Co-founder & Technology Business Development</h4>
+                                <h4 className="item-title">Co-founder & Technology Business Development </h4>
                                 <p className="item-description">
                                 The Rike is a company specializing in supplying a variety of Vietnamese farmers tea seeds to the US market with a staff of over 20 people stretching from North to South, Vietnam and warehouse headquarters located in the states. Illinois, Virginia, .... of America. I joined the team in early 2023 as the technology team leader, realized the company's problems and with my vision was appointed to the position of manager and co-founder of the company. , the jobs I have done.                                </p>
                                 {showSeeLessSeeMore_TheRike && ( <>
@@ -228,7 +228,7 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                         <div id="timeline_2" className="timeline clearfix">
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period current">2022 - Current</h5>
+                                <h5 className="item-period current">6-2022 - 8-2024</h5>
 
                                 <a href="https://www.datahouse.com" >
                                     {" "}DataHouse
@@ -241,6 +241,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                     After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
                                 {/* Data Engineer */}
                                 {/* {showSeeLessSeeMore_DataHouse && ( <> */}
+                                {showSeeLessSeeMore_TheRike && ( <>
                                 <p className="item-description">
                                     <strong>Data Engineer:</strong> 
                                 </p>
@@ -271,6 +272,10 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <button onClick={toggleshowSeeLessSeeMore_DataHouse} className="see-more-btn">
                                     {showSeeLessSeeMore_DataHouse ? 'See Less' : 'See More'}
                                 </button> */}
+                                                                </>)}
+                                <button onClick={toggleshowSeeLessSeeMore_TheRike} className="see-more-btn">
+                                    {showSeeLessSeeMore_TheRike ? 'See Less' : 'See More'}
+                                </button>
                             </div>
                         </div>
                     </div>

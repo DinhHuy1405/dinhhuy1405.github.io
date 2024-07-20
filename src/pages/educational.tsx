@@ -119,6 +119,19 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
 
                         <div id="timeline_1" className="timeline clearfix">
+                        <div className="timeline-item clearfix">
+                                <h5 className="item-period">2024 - 2025</h5>
+                                <a href="https://univ-cotedazur.eu/" target="_blank" className="item-company">
+                                    Université Côte d'Azur
+                                </a>
+
+                                <h4 className="item-title">International Master of Science programs</h4>
+                                <p>
+                                    <strong>Major:</strong> MSC Data Sciences and Artificial Intelligence
+                                </p>
+                                {/* <p>Merges computer science with engineering practices, empowering to design, develop, and implement robust software systems.</p>
+                                <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p> */}
+                            </div>
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2018 - 2023</h5>
                                 <a href="https://dut.udn.vn" target="_blank" className="item-company">
