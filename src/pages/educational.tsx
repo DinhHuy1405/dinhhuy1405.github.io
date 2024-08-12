@@ -125,7 +125,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                     Université Côte d'Azur
                                 </a>
 
-                                <h4 className="item-title">International Master of Science programs</h4>
+                                <h4 className="item-title">Erasmus - International Master of Science programs</h4>
                                 <p>
                                     <strong>Major:</strong> MSC Data Sciences and Artificial Intelligence
                                 </p>
