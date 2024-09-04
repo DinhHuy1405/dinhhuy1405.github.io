@@ -77,7 +77,7 @@ const PageBody: React.FC<{
                                         <a href="/projects">Projects</a>
                                     </li>
                                     <li className="menu-item">
-                                        <a href="/blogs">Blogs</a>
+                                        <a href="https://concrete-diver-370.notion.site/Huy-Tim-Blog-2199713498284bb7b834c82fbd2c146c" target="_blank" rel="noopener noreferrer">Blogs</a>
                                     </li>
 
                                     <li className="menu-item">
