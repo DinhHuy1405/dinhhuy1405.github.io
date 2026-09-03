@@ -110,7 +110,7 @@ const HomePage: React.FC<PageProps> = () => {
                                             className="hp-inner"
                                             style={{
                                                 backgroundImage: "url(/img/main_photo_4.jpg)",
-                                                backgroundPosition: "48% 34%",
+                                                backgroundPosition: "center 38%",
                                             }}
                                         ></div>
                                     </div>
