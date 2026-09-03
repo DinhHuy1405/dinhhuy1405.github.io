@@ -32,8 +32,8 @@ const ContactPage: React.FC<PageProps> = () => {
                                     <i className="linecons linecons-location"></i>
                                 </div>
                                 <div className="ci-text">
-                                    <h6>Danang - Vietnam</h6>
-                                    <p>102 Nguyen Minh Chan, Hoa Khanh Nam, Lien Chieu</p>
+                                    <h6>Da Nang, Vietnam</h6>
+                                    <p>Phu Hoa Hamlet, Ba Na Commune, Da Nang City</p>
                                 </div>
                             </div>
 

@@ -44,8 +44,9 @@ export const projects: Project[] = [
         ],
         description:
             "As an Analytics Engineer (Data Engineer & Data Analyst), I build and orchestrate data pipelines on the Azure ecosystem (Azure Data Factory, Azure Storage) with Databricks / PySpark for large-scale processing. Raw sources are modeled into tested, documented, reusable data marts with dbt, following Kimball dimensional modeling and Data Vault 2.0. I also define metrics together with analysts and deliver self-serve datasets and dashboards for reporting. CI/CD runs on Azure DevOps.",
-        thumbnail: "/img/clients/my-project.png",
-        clientLogo: "/img/clients/my-project.png",
+        thumbnail: "/img/projects/axon/thumbnail.jpg",
+        imageUrl: "/img/projects/axon/thumbnail.jpg",
+        clientLogo: "/img/clients/axon-active.jpg",
         position: "Analytics Engineer (Data Engineer & Data Analyst)",
         techStacks: [
             "Azure Data Factory",
@@ -86,14 +87,16 @@ export const projects: Project[] = [
         name: "MSc Computer Vision: Matching Anything by Segmenting Anything (MASA)",
         filterCategories: [ProjectFilterCategory.ALL, ProjectFilterCategory.PERSONAL, ProjectFilterCategory.AI_AND_ML],
         description:
-            "Computer Vision course project in the MSc Data Science & Artificial Intelligence at Université Côte d'Azur. Study and re-implementation experiments around MASA (Matching Anything by Segmenting Anything, CVPR 2024) — learning instance-level correspondence / multi-object tracking from unlabeled images by leveraging the dense segmentation supervision of the Segment Anything Model.",
-        thumbnail: "/img/clients/my-project.png",
-        clientLogo: "/img/clients/my-project.png",
+            "Computer Vision course project in the MSc Data Science & Artificial Intelligence at Université Côte d'Azur. Study and re-implementation experiments around MASA (Matching Anything by Segmenting Anything, CVPR 2024 Highlight) — learning instance-level correspondence / multi-object tracking from unlabeled images by leveraging the dense segmentation supervision of the Segment Anything Model (SAM), via a lightweight MASA adapter trained with dense similarity learning.",
+        thumbnail: "/img/projects/masa/teaser.jpg",
+        imageUrl: "/img/projects/masa/teaser.jpg",
+        clientLogo: "/img/projects/masa/logo.png",
         position: "Student — Computer Vision project",
-        techStacks: ["Python", "PyTorch", "Segment Anything Model (SAM)", "Multi-object tracking"],
+        techStacks: ["Python", "PyTorch", "Segment Anything Model (SAM)", "MASA adapter", "Multi-object tracking"],
         slug: "msc-cv-matching-anything-segmenting-anything",
         date: "2024 – 2025",
         endDate: new Date("2025-01-15"),
+        website: "https://matchinganything.github.io/",
     },
     {
         name: "Team project: Ancv - WREF",

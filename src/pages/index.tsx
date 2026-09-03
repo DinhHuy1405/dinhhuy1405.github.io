@@ -36,12 +36,12 @@ const HomePage: React.FC<PageProps> = () => {
         },
         {
             name: "dbt",
-            logo: "/img/programming-languages/dbt.png",
+            logo: "/img/programming-languages/dbt-icon.svg",
             link: "https://www.getdbt.com",
         },
         {
             name: "Databricks",
-            logo: "/img/programming-languages/databricks.png",
+            logo: "/img/programming-languages/databricks-icon.svg",
             link: "https://www.databricks.com",
         },
         {
@@ -51,12 +51,12 @@ const HomePage: React.FC<PageProps> = () => {
         },
         {
             name: "Apache Airflow",
-            logo: "/img/programming-languages/airflow.png",
+            logo: "/img/programming-languages/airflow-icon.svg",
             link: "https://airflow.apache.org",
         },
         {
             name: "Amazon Web Services",
-            logo: "/img/programming-languages/Amazon_Web_Services_Logo.svg.png",
+            logo: "/img/programming-languages/aws-icon.svg",
             link: "https://aws.amazon.com",
         },
         {
@@ -66,17 +66,17 @@ const HomePage: React.FC<PageProps> = () => {
         },
         {
             name: "Power BI",
-            logo: "/img/programming-languages/powerbi.svg",
+            logo: "/img/programming-languages/powerbi-icon.svg",
             link: "https://powerbi.microsoft.com",
         },
         {
             name: "Tableau",
-            logo: "/img/programming-languages/tableau.png",
+            logo: "/img/programming-languages/tableau-icon.svg",
             link: "https://www.tableau.com",
         },
         {
             name: "Git",
-            logo: "/img/programming-languages/git.svg",
+            logo: "/img/programming-languages/git-icon.svg",
             link: "https://git-scm.com",
         },
         {
@@ -91,7 +91,7 @@ const HomePage: React.FC<PageProps> = () => {
         },
         {
             name: "SalesForce",
-            logo: "/img/programming-languages/Salesforce.com_logo.svg.png",
+            logo: "/img/programming-languages/salesforce-icon.svg",
             link: "https://www.salesforce.com/",
         },
     ];

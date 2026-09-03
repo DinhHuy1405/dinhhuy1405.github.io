@@ -2490,7 +2490,11 @@ ul.social-links li:last-child a {
 }
 
 .client-block img {
-    max-width: 80px;
+    max-width: 72px;
+    max-height: 72px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     margin: 0 auto;
 }
 
@@ -2504,8 +2508,12 @@ ul.social-links li:last-child a {
 
 .clients.owl-carousel .owl-item img {
     display: block;
-    width: 100%;
-    max-width: 100px;
+    width: auto;
+    height: 64px;
+    max-width: 96px;
+    max-height: 64px;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 .clients.owl-carousel .owl-dots,
