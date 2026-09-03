@@ -130,7 +130,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                     <strong>Major:</strong> MSc Data Sciences and Artificial Intelligence
                                 </p>
                                 <p>
-                                    <strong>Scholarship:</strong> Erasmus Mundus scholarship (selected after a worldwide application round).
+                                    <strong>Scholarship:</strong> Erasmus scholarship (selected after a worldwide application round).
                                 </p>
                                 <p>
                                     <strong>Coursework:</strong> Advanced Deep Learning, Reinforcement Learning, Statistical &amp; Bayesian Learning, Federated Learning &amp; Data Privacy, High-Dimensional Statistics, Graph/Network analysis, Advanced Learning for Functional/Mixed/Text Data.
