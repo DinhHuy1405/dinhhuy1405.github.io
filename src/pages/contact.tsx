@@ -54,8 +54,10 @@ const ContactPage: React.FC<PageProps> = () => {
                             <h2>How Can I Help You?</h2>
                         </div>
 
-                        <form action="https://formbold.com/s/981Zv" className="contact-form"  method="POST">
+                        <form action="https://formbold.com/s/981Zv" className="contact-form" method="POST">
                             <div className="messages"></div>
+                            <input type="hidden" name="_redirect" value="https://www.huytim.com/contact/?sent=1" />
+                            <input type="text" name="_gotcha" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
 
                             <div className="controls two-columns">
                                 <div className="fields clearfix">
@@ -90,7 +92,7 @@ const ContactPage: React.FC<PageProps> = () => {
 
                                         <div className="form-group form-group-with-icon">
                                             <input
-                                                id="form_name"
+                                                id="form_subject"
                                                 type="text"
                                                 name="subject"
                                                 className="form-control"
@@ -119,9 +121,7 @@ const ContactPage: React.FC<PageProps> = () => {
                                     </div>
                                 </div>
 
-                                <div className="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
-
-                                <input type="submit" className="button btn-send disabled" value="Send message" />
+                                <input type="submit" className="button btn-send" value="Send message" />
                             </div>
                         </form>
                     </div>

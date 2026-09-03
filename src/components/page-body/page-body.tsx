@@ -107,28 +107,40 @@ const PageBody: React.FC<{
                     <footer className="site-footer clearfix">
                         <div className="footer-social">
                             <ul className="footer-social-links">
-                                {/* <li>
-                                    <a href="https://github.com/nabatti99" target="_blank">
-                                        Github
-                                    </a>
-                                </li> */}
-
                                 <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100010185792295" target="_blank">
-                                        Facebook
+                                    <a href="https://www.linkedin.com/in/dinhhuynguyen" target="_blank" rel="noopener noreferrer">
+                                        LinkedIn
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="https://www.linkedin.com/in/dinhhuynguyen" target="_blank">
-                                    Linkedin
+                                    <a href="https://github.com/DinhHuy1405" target="_blank" rel="noopener noreferrer">
+                                        GitHub
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://medium.com/@HuyTimBlog" target="_blank" rel="noopener noreferrer">
+                                        Medium
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.threads.com/@dh.timm" target="_blank" rel="noopener noreferrer">
+                                        Threads
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100010185792295" target="_blank" rel="noopener noreferrer">
+                                        Facebook
                                     </a>
                                 </li>
                             </ul>
                         </div>
 
                         <div className="footer-copyrights">
-                            <p>Nguyen Dinh Huy - Data Engineer</p>
+                            <p>Nguyen Dinh Huy - Analytics Engineer</p>
                         </div>
                     </footer>
                     {/* <!-- /Footer --> */}
