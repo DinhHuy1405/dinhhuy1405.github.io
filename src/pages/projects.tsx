@@ -33,6 +33,17 @@ const ProjectPage: React.FC<PageProps> = () => {
                                 </li>
 
                                 <li>
+                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.AXON}>
+                                        Axon Active
+                                    </a>
+                                </li>
+                                <li>
+                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.GEOAZUR}>
+                                        GeoAzur
+                                    </a>
+                                </li>
+
+                                <li>
                                     <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.PASSGENIX_SOLUTIONS}>
                                         Passgenix Solutions
                                     </a>
@@ -64,8 +75,13 @@ const ProjectPage: React.FC<PageProps> = () => {
                                     </a>
                                 </li>
                                 <li>
+                                    <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.DATA_ENGINEERING}>
+                                        Data Engineering
+                                    </a>
+                                </li>
+                                <li>
                                     <a className="filter btn btn-sm btn-link" data-group={ProjectFilterCategory.DATA_ANALYZING}>
-                                        Data 
+                                        Data / Analytics
                                     </a>
                                 </li>
                                 {/* <li>

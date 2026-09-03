@@ -8,9 +8,9 @@ const HomePage: React.FC<PageProps> = () => {
     const whatICanDoContents = [
         {
             icon: "linecons-display",
-            title: "Data Engineer",
+            title: "Analytics Engineer (Data Engineer & Data Analyst)",
             description:
-                "I can hold various positions, data engineer, data analyst, data scientist and have also worked on projects for all the above positions. I am skilled at collecting, storing, processing and analyzing large amounts of data, proficient in using a variety of tools and programming languages to transform raw data into actionable insights that drive promote strategic decision making. I am trying to build myself to go further in my career and perfect the above skills.",
+                "I work across the full data lifecycle: building and orchestrating ETL / ELT pipelines (Azure Data Factory, Databricks / PySpark, AWS), modeling raw sources into tested, documented data marts with dbt following Kimball dimensional modeling and Data Vault 2.0, and turning that data into metrics, dashboards and reports (Power BI, Tableau). I have also held data engineer, data analyst and AI research roles, and I care about data quality, reliability and owning recurring deliverables end to end.",
         },
         {
             icon: "linecons-world",
@@ -25,24 +25,34 @@ const HomePage: React.FC<PageProps> = () => {
 
     const languagesAndFrameworksContents = [
         {
-            name: "HTML",
-            logo: "/img/programming-languages/html-logo.png",
-            link: "https://www.w3.org/html",
-        },
-        {
-            name: "CSS",
-            logo: "/img/programming-languages/css-logo.png",
-            link: "https://www.w3.org/style/css",
-        },
-        {
-            name: "JavaScript",
-            logo: "/img/programming-languages/js-logo.png",
-            link: "https://www.javascript.com",
-        },
-        {
             name: "Python",
             logo: "/img/programming-languages/python-logo.png",
             link: "https://www.python.org",
+        },
+        {
+            name: "SQL",
+            logo: "/img/programming-languages/postgresql-logo.png",
+            link: "https://www.postgresql.org",
+        },
+        {
+            name: "dbt",
+            logo: "/img/programming-languages/dbt.png",
+            link: "https://www.getdbt.com",
+        },
+        {
+            name: "Databricks",
+            logo: "/img/programming-languages/databricks.png",
+            link: "https://www.databricks.com",
+        },
+        {
+            name: "Microsoft Azure",
+            logo: "/img/programming-languages/azure.svg",
+            link: "https://azure.microsoft.com",
+        },
+        {
+            name: "Apache Airflow",
+            logo: "/img/programming-languages/airflow.png",
+            link: "https://airflow.apache.org",
         },
         {
             name: "Amazon Web Services",
@@ -50,34 +60,39 @@ const HomePage: React.FC<PageProps> = () => {
             link: "https://aws.amazon.com",
         },
         {
-            name: "SalesForce",
-            logo: "/img/programming-languages/Salesforce.com_logo.svg.png",
-            link: "https://www.salesforce.com/",
+            name: "Google BigQuery",
+            logo: "/img/programming-languages/bigquery.svg",
+            link: "https://cloud.google.com/bigquery",
         },
         {
-            name: "Amazon Quicksight",
-            logo: "/img/programming-languages/aws-quicksight-icon-2048x2048-6pz6utv5.png",
-            link: "https://aws.amazon.com/pm/quicksight",
+            name: "Power BI",
+            logo: "/img/programming-languages/powerbi.svg",
+            link: "https://powerbi.microsoft.com",
         },
         {
-            name: "Appsheet",
-            logo: "/img/programming-languages/Appsheet.png",
-            link: "https://cloud.google.com/appsheet",
+            name: "Tableau",
+            logo: "/img/programming-languages/tableau.png",
+            link: "https://www.tableau.com",
         },
         {
-            name: "Tensorflow",
+            name: "Git",
+            logo: "/img/programming-languages/git.svg",
+            link: "https://git-scm.com",
+        },
+        {
+            name: "TensorFlow",
             logo: "/img/programming-languages/tensorflow-logo.png",
             link: "https://www.tensorflow.org",
         },
         {
-            name: "PostgreSQL",
-            logo: "/img/programming-languages/postgresql-logo.png",
-            link: "https://www.postgresql.org",
+            name: "AppSheet",
+            logo: "/img/programming-languages/Appsheet.png",
+            link: "https://cloud.google.com/appsheet",
         },
         {
-            name: "MongoDB",
-            logo: "/img/programming-languages/mongodb-logo.png",
-            link: "https://www.mongodb.com",
+            name: "SalesForce",
+            logo: "/img/programming-languages/Salesforce.com_logo.svg.png",
+            link: "https://www.salesforce.com/",
         },
     ];
 
@@ -104,15 +119,19 @@ const HomePage: React.FC<PageProps> = () => {
                                     <div className="home-text hp-left">
                                         <div className="owl-carousel text-rotation">
                                             <div className="item">
-                                                <h4>Technology Business Development & Team Management</h4>
+                                                <h4>Analytics Engineer</h4>
                                             </div>
-{/* 
-                                            <div className="item">
-                                                <h4>AI Engineer</h4>
-                                            </div> */}
 
                                             <div className="item">
-                                                <h4>Data Engineer</h4>
+                                                <h4>Data Engineer & Data Analyst</h4>
+                                            </div>
+
+                                            <div className="item">
+                                                <h4>AI Researcher</h4>
+                                            </div>
+
+                                            <div className="item">
+                                                <h4>Technology Business Development & Team Management</h4>
                                             </div>
                                         </div>
                                         {/* <h2>

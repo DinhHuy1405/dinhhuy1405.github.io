@@ -27,53 +27,68 @@ const ResumePage: React.FC<PageProps> = () => {
         level: keyof typeof codingSkillInfos;
     }[] = [
         {
+            name: "Python",
+            level: "advanced",
+        },
+        {
+            name: "SQL",
+            level: "advanced",
+        },
+        {
+            name: "dbt (data modeling & tests)",
+            level: "advanced",
+        },
+        {
+            name: "Kimball dimensional modeling",
+            level: "advanced",
+        },
+        {
+            name: "Data Vault 2.0",
+            level: "intermediate",
+        },
+        {
+            name: "Databricks / PySpark",
+            level: "intermediate",
+        },
+        {
+            name: "Azure Data Factory",
+            level: "intermediate",
+        },
+        {
+            name: "Apache Airflow",
+            level: "beginner",
+        },
+        {
+            name: "AWS (Lambda, S3)",
+            level: "intermediate",
+        },
+        {
+            name: "GCP BigQuery",
+            level: "intermediate",
+        },
+        {
+            name: "Power BI / Tableau",
+            level: "intermediate",
+        },
+        {
+            name: "Git (GitHub, GitLab, Azure DevOps)",
+            level: "advanced",
+        },
+        {
             name: "AppSheet",
             level: "advanced",
         },
         {
-            name: "Excel",
+            name: "TensorFlow / PyTorch",
             level: "intermediate",
         },
         {
-            name: "HTML / CSS",
+            name: "Salesforce (Apex, LWC, SOQL)",
             level: "intermediate",
         },
         {
-            name: "JavaScript",
-            level: "intermediate",
-        },
-        {
-            name: "Python",
-            level: "intermediate",
-        },
-
-        {
-            name: "SQL",
-            level: "intermediate",
-        },
-        {
-            name: "Quicksight",
-            level: "intermediate",
-        },
-        {
-            name: "Tensorflow",
-            level: "intermediate",
-        },
-        {
-            name: "Salesforce",
-            level: "intermediate",
-        },
-        {
-            name: "System Architecture",
-            level: "beginner",
-        },
-        {
-            name: "Database Design",
-            level: "beginner",
-        },
-        {
-            name: "AWS",
-            level: "beginner",
+            name: "Google Sheets / Excel",
+            level: "advanced",
         },
     ];
 
@@ -155,7 +170,7 @@ const ResumePage: React.FC<PageProps> = () => {
                 <h1>Nguyen Dinh Huy</h1>
                 <div className="page-subtitle"></div><a> </a>
                 <div className="page-subtitle">
-                    <a>This is a page documenting my current and future career journey. Over the past 2 years, I have participated in many roles and held many positions in businesses and projects. Hope it can help you understand me better.</a>
+                    <a>This is a page documenting my current and future career journey. Over the past 3+ years, across an MSc in Data Science &amp; AI in France and roles in Vietnam, France and remote for the US, I have worked as an Analytics Engineer, Data Engineer, Data Analyst and AI Researcher. Hope it can help you understand me better.</a>
                 </div>
             </div>
             <div id="content" className="page-content site-content single-post" role="main">
@@ -195,9 +210,9 @@ const ResumePage: React.FC<PageProps> = () => {
                             </div>
                             {/* The Rike - modified section */}
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period">2-2023 - 5-2024</h5>
+                                <h5 className="item-period">Feb 2023 - Jul 2026 (Part-time)</h5>
                                 <a href="https://therike.com">The Rike</a>
-                                <h4 className="item-title">Co-founder & Technology Business Development </h4>
+                                <h4 className="item-title">Analytics Engineer & E-commerce Operations (Co-founder) </h4>
                                 <p className="item-description">
                                 The Rike is a company specializing in supplying a variety of Vietnamese farmers tea seeds to the US market with a staff of over 20 people stretching from North to South, Vietnam and warehouse headquarters located in the states. Illinois, Virginia, .... of America. I joined the team in early 2023 as the technology team leader, realized the company's problems and with my vision was appointed to the position of manager and co-founder of the company. , the jobs I have done.                                </p>
                                 {showSeeLessSeeMore_TheRike && ( <>
@@ -227,6 +242,32 @@ const ResumePage: React.FC<PageProps> = () => {
                             <h2>Experiences - Official</h2>
                         </div>
                         <div id="timeline_2" className="timeline clearfix">
+                            {/* Axon Active */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Sep 2025 - Present</h5>
+                                <a href="https://www.axonactive.com/">
+                                    {" "}Axon Active
+                                </a>
+                                <h4 className="item-title">Analytics Engineer (Data Engineer & Data Analyst)</h4>
+                                <p className="item-description">
+                                    I build and orchestrate data pipelines on the Azure ecosystem (Azure Data Factory, Azure Storage) with Databricks / PySpark for large-scale processing. Raw sources are modeled into tested, documented, reusable data marts with dbt (data-quality tests), following Kimball dimensional modeling and Data Vault 2.0. I also define metrics with analysts and deliver self-serve datasets and dashboards for reporting. CI/CD runs on Azure DevOps.
+                                </p>
+                            </div>
+
+                            {/* GeoAzur */}
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-period current">Jan 2025 - Sep 2025</h5>
+                                <a href="https://geoazur.oca.eu/fr/acc-geoazur">
+                                    {" "}GeoAzur (Université Côte d'Azur / CNRS)
+                                </a>
+                                <h4 className="item-title">AI Researcher — MSc 2 Research Internship</h4>
+                                <p className="item-description">
+                                    Sole researcher on "Artificial Intelligence Approach to Detecting and Estimating Wind and Rainfall Over the Oceans from Deep-Sea Hydro-Acoustic Data". I designed the full pipeline from scratch: large-scale acoustic data handling (MBARI hydrophone archive on AWS S3), signal processing and feature extraction (MFCCs, spectral energy bands), correlation analysis with meteorological records, handling class imbalance and disjoint temporal distribution of rare rain/wind events, model development and evaluation, and a feedback learning loop. {" "}
+                                    <a href="/assets/GeoAzur-Internship-Report.pdf" target="_blank">Report (PDF)</a>
+                                </p>
+                            </div>
+
+                            {/* DataHouse */}
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period current">6-2022 - 8-2024</h5>
 
@@ -235,13 +276,12 @@ const ResumePage: React.FC<PageProps> = () => {
                                 </a>
                                 <h4 className="item-title">SalesForce Developer</h4>
                                 <p className="item-description">
-                                I have been interning for a Salesforce developer position since June 2022 and participated in a SalesForce project related to the government tax sector... and joined Data MigrationTeam before transitioning to the position new.</p>
+                                From June 2022 I worked as a Salesforce developer on a project in the government tax sector and joined the Data Migration Team before transitioning to a new role.</p>
                                 <h4 className="item-title">Data Engineer </h4>
                                 <p className="item-description">
-                                    After more than 1 year as a Salesforce developer, I joined Data House's Data Team as a data engineer and have implemented many different projects with: </p>
+                                    After more than 1 year as a Salesforce developer, I joined DataHouse's Data Team as a data engineer and implemented many different projects: </p>
                                 {/* Data Engineer */}
-                                {/* {showSeeLessSeeMore_DataHouse && ( <> */}
-                                {showSeeLessSeeMore_TheRike && ( <>
+                                {showSeeLessSeeMore_DataHouse && ( <>
                                 <p className="item-description">
                                     <strong>Data Engineer:</strong> 
                                 </p>
@@ -268,13 +308,9 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <p className="item-description">
                                     (2) I have deployed the Google LLM model API to execute various tasks as per the team's requirements.
                                 </p>
-                                {/* </>)}  
+                                </>)}
                                 <button onClick={toggleshowSeeLessSeeMore_DataHouse} className="see-more-btn">
                                     {showSeeLessSeeMore_DataHouse ? 'See Less' : 'See More'}
-                                </button> */}
-                                                                </>)}
-                                <button onClick={toggleshowSeeLessSeeMore_TheRike} className="see-more-btn">
-                                    {showSeeLessSeeMore_TheRike ? 'See Less' : 'See More'}
                                 </button>
                             </div>
                         </div>

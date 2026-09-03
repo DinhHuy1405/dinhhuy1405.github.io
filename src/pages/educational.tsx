@@ -127,10 +127,21 @@ const ResumePage: React.FC<PageProps> = () => {
 
                                 <h4 className="item-title">Erasmus - International Master of Science programs</h4>
                                 <p>
-                                    <strong>Major:</strong> MSC Data Sciences and Artificial Intelligence
+                                    <strong>Major:</strong> MSc Data Sciences and Artificial Intelligence
                                 </p>
-                                {/* <p>Merges computer science with engineering practices, empowering to design, develop, and implement robust software systems.</p>
-                                <p>Participate in many researches and contests. Learned how to build a software by combining technology and SDLC.</p> */}
+                                <p>
+                                    <strong>Scholarship:</strong> Erasmus Mundus scholarship (selected after a worldwide application round).
+                                </p>
+                                <p>
+                                    <strong>Coursework:</strong> Advanced Deep Learning, Reinforcement Learning, Statistical &amp; Bayesian Learning, Federated Learning &amp; Data Privacy, High-Dimensional Statistics, Graph/Network analysis, Advanced Learning for Functional/Mixed/Text Data.
+                                </p>
+                                <p>
+                                    <strong>Computer Vision project:</strong> Matching Anything by Segmenting Anything (MASA) — instance-level correspondence / multi-object tracking from unlabeled images using the Segment Anything Model.
+                                </p>
+                                <p>
+                                    <strong>Research internship (Jan–Sep 2025):</strong> GeoAzur (Université Côte d'Azur / CNRS) — AI for detecting and estimating wind &amp; rainfall over the oceans from deep-sea hydro-acoustic data. {" "}
+                                    <a href="/assets/GeoAzur-Internship-Report.pdf" target="_blank" className="item-company">Report (PDF)</a>
+                                </p>
                             </div>
                             <div className="timeline-item clearfix">
                                 <h5 className="item-period">2018 - 2023</h5>
@@ -156,6 +167,23 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                 </div>
+                {/* Publications */}
+                <div className="row">
+                    <div className=" col-xs-12 col-sm-12 ">
+                        <div className="block-title">
+                            <h2>Publications</h2>
+                        </div>
+
+                        <div id="timeline_pub" className="timeline clearfix">
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-paper">2026</h5>
+                                <a href="https://doi.org/10.1002/rvr2.70046" target="_blank" className="item-company">
+                                    <strong>D. H. Nguyen</strong>, N. D. Vo, T. N. C. Doan, T. T. U. Truong, H. C. Vu, "Hybrid GNN and Temporal Encoder Models for Flood Forecasting in the Vu Gia–Thu Bon River Basin," <em>River</em> (Wiley), 2026. DOI: 10.1002/rvr2.70046.
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* Research Experiences */}
                 <div className="row">
                     <div className=" col-xs-12 col-sm-12 ">
@@ -164,6 +192,12 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
 
                         <div id="timeline_1" className="timeline clearfix">
+                            <div className="timeline-item clearfix">
+                                <h5 className="item-paper">2025</h5>
+                                <a href="/assets/GeoAzur-Internship-Report.pdf" target="_blank" className="item-company">
+                                    N.D.Huy, "Artificial Intelligence Approach to Detecting and Estimating Wind and Rainfall Over the Oceans from Deep-Sea Hydro-Acoustic Data," MSc 2 research internship, GeoAzur (Université Côte d'Azur / CNRS), France.
+                                </a>
+                            </div>
                             <div className="timeline-item clearfix">
                                 <h5 className="item-paper">12-2022</h5>
                                 <a href="https://drive.google.com/file/d/1HFKENMTkHRCHVbvzTjZjloY3Vijtpda6/view?usp=sharing" target="_blank" className="item-company">
@@ -306,8 +340,8 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                     <div className=" col-xs-12 col-sm-6 ">
-                        <div className="block-title" style={{opacity: 0}}>
-                            <h2>xxxx</h2>
+                        <div className="block-title" style={{opacity: 0}} aria-hidden="true">
+                            <h2>&nbsp;</h2>
                         </div>
                         <div id="timeline_2" className="col-xs-12 col-sm-12 ">
                             {/* Da Nang University  */}
@@ -414,8 +448,8 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                     <div className=" col-xs-12 col-sm-6 ">
-                        <div className="block-title" style={{opacity: 0}}>
-                            <h2>xxxx</h2>
+                        <div className="block-title" style={{opacity: 0}} aria-hidden="true">
+                            <h2>&nbsp;</h2>
                         </div>
                         <div id="timeline_2" className="col-xs-12 col-sm-12 ">
                             {/* Da Nang University  */}
@@ -461,8 +495,8 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                     </div>
                     <div className=" col-xs-12 col-sm-6 ">
-                        <div className="block-title" style={{opacity: 0}}>
-                            <h2>xxxx</h2>
+                        <div className="block-title" style={{opacity: 0}} aria-hidden="true">
+                            <h2>&nbsp;</h2>
                         </div>
                         <div id="timeline_2" className="col-xs-12 col-sm-12 ">
                             {/* Da Nang University  */}

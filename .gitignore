@@ -70,4 +70,5 @@ yarn-error.log
 .yarn-integrity
 
 # Auto generated files
+src/gatsby-types.d.ts.claude/
 src/gatsby-types.d.ts
