@@ -40,9 +40,6 @@ const PageHead: React.FC<{
 
             {/* <!-- Custom CSS --> */}
             <link rel="stylesheet" href="/css/main.css" type="text/css" />
-
-            {/* <!-- Huy Tim tropical-editorial theme (fonts + palette) --> */}
-            <link rel="stylesheet" href="/css/huytim-theme.css" type="text/css" />
         </>
     );
 };
