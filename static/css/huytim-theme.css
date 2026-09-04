@@ -30,6 +30,14 @@
 }
 
 @font-face {
+    font-family: "Anton";
+    src: url("/fonts/anton/Anton-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: "Be Vietnam Pro";
     src: url("/fonts/bevietnampro/BeVietnamPro-Regular.ttf") format("truetype");
     font-weight: 400;
@@ -75,8 +83,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Oswald", "Poppins", Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: "Anton", "Oswald", "Poppins", Helvetica, sans-serif;
+    font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--huy-cocoa);
 }
@@ -165,10 +173,15 @@ h3.comment-reply-title:after {
 /* ---- Nav ---- */
 
 .logo,
-.logo a {
-    font-family: "Oswald", Helvetica, sans-serif;
-    font-weight: 700;
+.logo a,
+.text-logo,
+.text-logo a,
+.logo-text {
+    font-family: "Anton", "Oswald", Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 0.02em;
+    color: var(--huy-cocoa) !important;
 }
 
 /* ---- Cards / surfaces: warmer, bolder ---- */

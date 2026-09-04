@@ -136,10 +136,10 @@ const ResumePage: React.FC<PageProps> = () => {
                                     <strong>Coursework:</strong> Advanced Deep Learning, Reinforcement Learning, Statistical &amp; Bayesian Learning, Federated Learning &amp; Data Privacy, High-Dimensional Statistics, Graph/Network analysis, Advanced Learning for Functional/Mixed/Text Data.
                                 </p>
                                 <p>
-                                    <strong>Computer Vision project:</strong> Matching Anything by Segmenting Anything (MASA) — instance-level correspondence / multi-object tracking from unlabeled images using the Segment Anything Model.
+                                    <strong>Computer Vision project:</strong> Matching Anything by Segmenting Anything (MASA): instance-level correspondence / multi-object tracking from unlabeled images using the Segment Anything Model.
                                 </p>
                                 <p>
-                                    <strong>Research internship (Jan–Sep 2025):</strong> GeoAzur (Université Côte d'Azur / CNRS) — AI for detecting and estimating wind &amp; rainfall over the oceans from deep-sea hydro-acoustic data. {" "}
+                                    <strong>Research internship (Jan–Sep 2025):</strong> GeoAzur (Université Côte d'Azur / CNRS): AI for detecting and estimating wind &amp; rainfall over the oceans from deep-sea hydro-acoustic data. {" "}
                                     <a href="/assets/GeoAzur-Internship-Report.pdf" target="_blank" className="item-company">Report (PDF)</a>
                                 </p>
                             </div>

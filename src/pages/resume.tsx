@@ -260,7 +260,7 @@ const ResumePage: React.FC<PageProps> = () => {
                                 <a href="https://geoazur.oca.eu/fr/acc-geoazur">
                                     {" "}GeoAzur (Université Côte d'Azur / CNRS)
                                 </a>
-                                <h4 className="item-title">AI Researcher — MSc 2 Research Internship</h4>
+                                <h4 className="item-title">AI Researcher</h4>
                                 <p className="item-description">
                                     Sole researcher on "Artificial Intelligence Approach to Detecting and Estimating Wind and Rainfall Over the Oceans from Deep-Sea Hydro-Acoustic Data". I designed the full pipeline from scratch: large-scale acoustic data handling (MBARI hydrophone archive on AWS S3), signal processing and feature extraction (MFCCs, spectral energy bands), correlation analysis with meteorological records, handling class imbalance and disjoint temporal distribution of rare rain/wind events, model development and evaluation, and a feedback learning loop. {" "}
                                     <a href="/assets/GeoAzur-Internship-Report.pdf" target="_blank">Report (PDF)</a>
