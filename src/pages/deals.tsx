@@ -70,10 +70,12 @@ const DealsPage: React.FC<PageProps> = () => {
                                                     {deal.name}
                                                 </a>
                                             </h4>
-                                            <p style={{ margin: "0 0 8px", fontSize: 13 }}>{deal.description}</p>
+                                            <p style={{ margin: "0 0 6px", fontSize: 13 }}>{deal.description}</p>
+                                            <p style={{ margin: "0 0 8px", fontSize: 14, fontWeight: 600, color: "#2f9b62" }}>Discount: {deal.benefit}</p>
                                             <button type="button" className="see-more-btn" onClick={() => copyCode(deal.code)}>
                                                 {copied === deal.code ? "Copied!" : `Code: ${deal.code} (click to copy)`}
                                             </button>
+                                            {deal.terms && <p style={{ margin: "8px 0 0", fontSize: 12, color: "#888" }}>{deal.terms}</p>}
                                         </div>
                                     </div>
                                 </div>
