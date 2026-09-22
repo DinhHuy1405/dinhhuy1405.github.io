@@ -4,7 +4,7 @@ import PageBody from "../components/page-body/page-body";
 import PageHead from "../components/page-head/page-head";
 import { deals, platforms } from "../data/deals.data";
 
-const DealsPage: React.FC<PageProps> = () => {
+const ResourcesPage: React.FC<PageProps> = () => {
     const [copied, setCopied] = React.useState<string | null>(null);
 
     const copyCode = async (code: string) => {
@@ -20,7 +20,7 @@ const DealsPage: React.FC<PageProps> = () => {
     return (
         <PageBody>
             <div className="page-title">
-                <h1>Deals</h1>
+                <h1>Platforms & Resources</h1>
                 <div className="page-subtitle">
                     <h4>My platforms and personal codes</h4>
                 </div>
@@ -88,6 +88,6 @@ const DealsPage: React.FC<PageProps> = () => {
     );
 };
 
-export default DealsPage;
+export default ResourcesPage;
 
-export const Head: HeadFC = () => <PageHead title="Deals" />;
+export const Head: HeadFC = () => <PageHead title="Platforms & Resources" />;

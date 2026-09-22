@@ -81,7 +81,7 @@ const PageBody: React.FC<{
                                     </li>
 
                                     <li className="menu-item">
-                                        <a href="/deals">Deals</a>
+                                        <a href="/resources">Platforms & Resources</a>
                                     </li>
 
                                     <li className="menu-item">
