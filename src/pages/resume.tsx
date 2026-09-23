@@ -181,7 +181,7 @@ const ResumePage: React.FC<PageProps> = () => {
                         </div>
                             {/* Passgenix */}
                             <div className="timeline-item clearfix">
-                                <h5 className="item-period">2022 - Current</h5>
+                                <h5 className="item-period">Mar 2022 - Dec 2025</h5>
                                 <a href="https://passgenix.com">
                                      {" "}Passgenix
                                 </a>
