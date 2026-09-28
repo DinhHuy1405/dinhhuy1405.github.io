@@ -56,7 +56,7 @@ const ContactPage: React.FC<PageProps> = () => {
 
                         <form action="https://formbold.com/s/981Zv" className="contact-form" method="POST">
                             <div className="messages"></div>
-                            <input type="hidden" name="_redirect" value="https://www.huytim.com/contact/?sent=1" />
+                            <input type="hidden" name="_redirect" value="https://portfolio.huytim.com/contact/?sent=1" />
                             <input type="text" name="_gotcha" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
 
                             <div className="controls two-columns">
